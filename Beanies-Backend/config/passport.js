@@ -1,45 +1,34 @@
-const LocalStrategy = require('passport-local').Strategy;
-const mongoose = require('mongoose');
-const bcrypt = require('bcrypt');
+const JwtStrategy = require("passport-jwt").Strategy;
+const ExtractJwt = require("passport-jwt").ExtractJwt;
+const path = require("path");
+const fs = require("fs");
+
+const pathToKey = path.join(__dirname, "..", "id_rsa_pub.pem");
+const PUB_KEY = fs.readFileSync(pathToKey, "utf8");
 
 // User Model
-const User = require('../models/User');
+const User = require("../models/User");
 
+// JWT Options
+const options = {
+  jwtFromRequest: ExtractJwt.fromAuthHeaderAsBearerToken(),
+  secretOrKey: PUB_KEY,
+  algorithms: ["RS256"],
+};
 
-module.exports = function(passport){
-    passport.use(
-        new LocalStrategy({
-            usernameField: 'email'
-        }, (email,password, done)=> {
+// JWT Strategy
+const strategy = new JwtStrategy(options, (payload, done) => {
+  User.findOne({ _id: payload.sub })
+    .then((user) => {
+      if (user) {
+        return done(null, user);
+      } else {
+        return done(null, false);
+      }
+    })
+    .catch((err) => done(err, null));
+});
 
-            // Match user
-            User.findOne({email: email})
-            .then(user =>{
-                if(!user) {
-                    return done(null, false, {message: "That email is not registered"});
-                }
-
-                // Match Password
-
-                bcrypt.compare(password, user.password, (err,isMatch) => {
-                    if(err) throw err;
-                    if(isMatch){
-                        return done(null, user)
-                    } else{
-                        return done(null, false, {message: "Password incorrect"})
-                    }
-                })
-            })
-            .catch(err => console.log(err))
-        })
-    );
-    passport.serializeUser(function(user, done) {
-        done(null, user.id);
-      });
-    
-      passport.deserializeUser(function(id, done) {
-        User.findById(id, function(err, user) {
-          done(err, user);
-        });
-      });
+module.exports = (passport) => {
+  passport.use(strategy);
 };

@@ -16,7 +16,6 @@ require('./config/passport')(passport);
 const db = require('./config/keys').MongoURI;
 
 // Connect to Mongo
-
 mongoose.connect(db,{useNewUrlParser : true})
 .then(()=>console.log('MongoDB connected...'))
 .catch(err => console.log(err));
@@ -52,10 +51,12 @@ app.use(logger);
 app.use(express.json());
 app.use(express.urlencoded({extended: false}));
 
-// user api routes
-app.use('/users', require('./routes/users'));
-app.use('/', require('./routes/index'));
+// cms routes
+app.use('/users', require('./routes/cms/users'));
+app.use('/', require('./routes/cms/index'));
 
+// api routes
+app.use('/api/users', require('./routes/api/users'));
 
 
 const PORT = process.env.PORT || 5000;
