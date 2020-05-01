@@ -2,8 +2,9 @@ const express = require("express");
 const router = express.Router();
 const bcrypt = require("bcrypt");
 const passport = require("passport");
+
 // User model
-const User = require("../models/User");
+const User = require("../../models/User");
 
 // login
 router.get("/login", (req, res) => {
