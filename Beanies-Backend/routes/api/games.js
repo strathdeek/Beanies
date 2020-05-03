@@ -16,22 +16,22 @@ router.post("/", async (req, res, next) => {
   }
 
   const scores = new Map();
+
   var invalidUsers = [];
   for (let index = 0; index < players.length; index++) {
       const element = players[index];
       await User.findOne({ _id: element })
       .then((user) => {
         if (!user) {
+            // check for invalid users
             invalidUsers.push(element);
-            console.log(invalidUsers);
         } else {
+            // initialize scoreboard
           scores.set(element, []);
         }
       })
       .catch((err) => next(err));
   }
-    
-  console.log(invalidUsers);
   if (invalidUsers.length > 0) {
     res.status(401).json({ success: false, msg: `no user found with id: ${invalidUsers}` });
   }
