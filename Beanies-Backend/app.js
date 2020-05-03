@@ -57,7 +57,7 @@ app.use('/', require('./routes/cms/index'));
 
 // api routes
 app.use('/api/users', require('./routes/api/users'));
-
+app.use('/api/games', require('./routes/api/games'));
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
