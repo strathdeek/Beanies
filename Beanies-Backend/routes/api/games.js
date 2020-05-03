@@ -39,6 +39,7 @@ router.post("/", async (req, res, next) => {
   } else {
     const newGame = new Game({
       name: name,
+      players: players,
       scores: scores,
     });
     newGame
@@ -55,7 +56,12 @@ router.get("/:id", (req, res, next) => {
   Game.findOne({ _id: req.params.id })
     .then((game) => {
       if (!game) {
-          res.status(404).json({success:false,msg:`unable to find game with id: ${req.params.id}`});
+        res
+          .status(404)
+          .json({
+            success: false,
+            msg: `unable to find game with id: ${req.params.id}`,
+          });
       } else {
         res.status(200).json({
           success: true,
@@ -64,26 +70,94 @@ router.get("/:id", (req, res, next) => {
       }
     })
     .catch((err) => {
-        res.status(404).json({success:false,msg:`unable to find game with id: ${req.params.id}`});
-        next(err);
+      res
+        .status(404)
+        .json({
+          success: false,
+          msg: `unable to find game with id: ${req.params.id}`,
+        });
+      next(err);
     });
 });
 
-// get all self
-router.get(
-  "/",
-  passport.authenticate("jwt", { session: false }),
-  (req, res, next) => {
-    // todo
-  }
-);
+// get all for player
+router.get("/player/:id", (req, res, next) => {
+  Game.find({ players: req.params.id })
+    .then((games) => {
+      if (!games) {
+        res.status(404).json({ success: false, msg: "no games found" });
+      } else {
+        res.status(200).json({ success: true, games: games });
+      }
+    })
+    .catch((err) => next(err));
+});
 
 // Put
 router.put(
   "/:id",
   passport.authenticate("jwt", { session: false }),
   (req, res, next) => {
-    // todo
+    const { players, scores, winner, completed, name } = req.body;
+
+    Game.findOne({ _id: req.params.id })
+      .then((game) => {
+        if (!game) {
+          res
+            .status(404)
+            .json({
+              success: false,
+              msg: `unable to find game with id: ${req.params.id}`,
+            });
+        } else {
+          //update players
+          if (players && players !== game.players) {
+            game.players = players;
+          }
+
+          //update scores
+          if (scores && scores !== game.scores) {
+              console.log(scores);
+              console.log(game.scores);
+              const newScores = new Map(JSON.parse(scores));
+              game.scores = newScores;
+          }
+
+          //update winner
+          if (winner && winner !== game.winner) {
+            game.winner = winner;
+          }
+
+          //update completed
+          if (completed && completed !== game.completed) {
+            game.completed = completed;
+          }
+
+          //update name
+          if (name && game.name !== name) {
+            game.name = name;
+          }
+
+          game
+            .save()
+            .then((game) => {
+              res.status(200).json({
+                success: true,
+                game: game,
+              });
+            })
+            .catch((err) => next(err));
+        }
+      })
+      .catch((err) => {
+        res
+          .status(404)
+          .json({
+            success: false,
+            msg: `unable to find game with id: ${req.params.id}`,
+          });
+        next(err);
+      });
   }
 );
 
