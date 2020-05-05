@@ -275,5 +275,18 @@ router.put(
   }
 );
 
+// delete
+router.delete('/:id',passport.authenticate('jwt',{session:false}),(req,res,next)=>{
+  User.deleteOne({_id: req.params.id})
+  .then((user) =>{
+    if(user.deletedCount >= 1){
+      res.status(200).json({success:true});
+    } else {
+      res.status(404).json({success: false, msg: `user with id ${req.params.id} not found`});
+    }
+  })
+  .catch(err => next(err));
+});
+
 // export
 module.exports = router;

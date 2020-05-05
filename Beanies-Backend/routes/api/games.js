@@ -166,7 +166,15 @@ router.delete(
   "/:id",
   passport.authenticate("jwt", { session: false }),
   (req, res, next) => {
-    // todo
+    Game.deleteOne({_id:req.params.id})
+    .then((game)=>{
+      if(game.deletedCount >= 1){
+        res.status(200).json({success:true});
+      } else {
+        res.status(404).json({success:false, msg: `game with id ${req.params.id} not found`});
+      }
+    })
+    .catch(err => next(err));
   }
 );
 
