@@ -1,0 +1,45 @@
+{
+  "version": 2,
+  "dgSpecHash": "m7TwkiEeh/0v5+WI8/8AEIM2d4NZrreGSUi0n62X9rt4+B82dXavFNkhh/8cOw01Z3KrhAlcThQvw0uwyg3mdw==",
+  "success": true,
+  "projectFilePath": "/Users/kevin/Beanies/Beanies-App/Beanies.iOS/Beanies.iOS.csproj",
+  "expectedPackageFiles": [
+    "/Users/kevin/.nuget/packages/resizetizer.nt/0.1.0-preview8/resizetizer.nt.0.1.0-preview8.nupkg.sha512",
+    "/Users/kevin/.nuget/packages/sharpnado.presentation.forms/1.5.1/sharpnado.presentation.forms.1.5.1.nupkg.sha512",
+    "/Users/kevin/.nuget/packages/sharpnado.taskmonitor/1.0.0/sharpnado.taskmonitor.1.0.0.nupkg.sha512",
+    "/Users/kevin/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/kevin/.nuget/packages/xamarin.essentials/1.3.1/xamarin.essentials.1.3.1.nupkg.sha512",
+    "/Users/kevin/.nuget/packages/xamarin.forms/4.4.0.991265/xamarin.forms.4.4.0.991265.nupkg.sha512",
+    "/Users/kevin/.nuget/packages/xamarin.forms.pancakeview/1.4.1-beta/xamarin.forms.pancakeview.1.4.1-beta.nupkg.sha512",
+    "/Users/kevin/.nuget/packages/xamarin.forms.visual.material/4.5.0.617/xamarin.forms.visual.material.4.5.0.617.nupkg.sha512",
+    "/Users/kevin/.nuget/packages/xamarin.ios.materialcomponents/72.2.0.1/xamarin.ios.materialcomponents.72.2.0.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Essentials from 1.5.2 to 1.3.1. Reference the package directly from the project to select a different version. \n Beanies.iOS -> Beanies -> Xamarin.Essentials (>= 1.5.2) \n Beanies.iOS -> Xamarin.Essentials (>= 1.3.1)",
+      "libraryId": "Xamarin.Essentials",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Forms from 4.5.0.617 to 4.4.0.991265. Reference the package directly from the project to select a different version. \n Beanies.iOS -> Beanies -> Xamarin.Forms (>= 4.5.0.617) \n Beanies.iOS -> Xamarin.Forms (>= 4.4.0.991265)",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    }
+  ]
+}
