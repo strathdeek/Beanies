@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xaml-comp compile="true" ?>
+
+<ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <OnPlatform x:Key="ExtraBold" x:TypeArguments="x:String">
+        <On Platform="Android" Value="BalooPaaji2-ExtraBold.ttf#Baloo Paaji 2" />
+        <On Platform="iOS" Value="BalooPaaji2-ExtraBold" />
+    </OnPlatform>
+    <OnPlatform x:Key="Bold" x:TypeArguments="x:String">
+        <On Platform="Android" Value="BalooPaaji2-Bold.ttf#Baloo Paaji 2" />
+        <On Platform="iOS" Value="BalooPaaji2-Bold" />
+    </OnPlatform>
+    <OnPlatform x:Key="SemiBold" x:TypeArguments="x:String">
+        <On Platform="Android" Value="BalooPaaji2-Bold.ttf#Baloo Paaji 2" />
+        <On Platform="iOS" Value="BalooPaaji2-Bold" />
+    </OnPlatform>
+    <OnPlatform x:Key="Medium" x:TypeArguments="x:String">
+        <On Platform="Android" Value="BalooPaaji2-Medium.ttf#Baloo Paaji 2" />
+        <On Platform="iOS" Value="BalooPaaji2-Medium" />
+    </OnPlatform>
+    <OnPlatform x:Key="Regular" x:TypeArguments="x:String">
+        <On Platform="Android" Value="BalooPaaji2-Regular.ttf#Baloo Paaji 2" />
+        <On Platform="iOS" Value="BalooPaaji2-Regular" />
+    </OnPlatform>
+
+
+</ResourceDictionary>

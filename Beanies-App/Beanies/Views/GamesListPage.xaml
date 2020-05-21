@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    x:Class="Beanies.Views.GamesListPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:renderedviews="clr-namespace:Sharpnado.Presentation.Forms.RenderedViews;assembly=Sharpnado.Presentation.Forms"
+    xmlns:viewmodels="clr-namespace:Beanies.ViewModels"
+    BackgroundColor="{StaticResource BackgroundLight}"
+    NavigationPage.HasNavigationBar="False">
+    <ContentPage.BindingContext>
+        <viewmodels:GamesListViewModel />
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <StackLayout Margin="0,20" Padding="10,30,10,10">
+            <Label
+                FontFamily="{StaticResource Bold}"
+                FontSize="Title"
+                Text="MY GAMES" />
+            <CollectionView Margin="0,15" ItemsSource="{Binding Games}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <ContentView>
+                            <renderedviews:MaterialFrame>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="*" />
+                                    </Grid.RowDefinitions>
+                                    <Frame
+                                        Grid.Row="0"
+                                        Grid.Column="0"
+                                        Grid.ColumnSpan="2"
+                                        Padding="3"
+                                        CornerRadius="10"
+                                        HasShadow="False">
+                                        <Label
+                                            FontFamily="{StaticResource Bold}"
+                                            FontSize="Default"
+                                            HorizontalOptions="Center"
+                                            Text="{Binding Name, Converter={StaticResource caseConverter}, ConverterParameter=u}"
+                                            TextColor="Black" />
+                                    </Frame>
+                                    <Label
+                                        Grid.Row="1"
+                                        Grid.Column="0"
+                                        Margin="5,0,0,0"
+                                        FontFamily="{StaticResource Medium}"
+                                        Text="{Binding PlayersDisplayText}" />
+                                    <Label
+                                        Grid.Row="1"
+                                        Grid.Column="1"
+                                        Grid.ColumnSpan="2"
+                                        FontFamily="{StaticResource Medium}"
+                                        Text="{Binding RoundsDisplayText}" />
+                                </Grid>
+                            </renderedviews:MaterialFrame>
+                        </ContentView>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <renderedviews:MaterialFrame x:Name="StartGameButton">
+                    <renderedviews:MaterialFrame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="StartGame_Tapped" />
+                    </renderedviews:MaterialFrame.GestureRecognizers>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Image Source="cards.png" />
+                        <Label
+                            Grid.Column="1"
+                            FontFamily="{StaticResource Bold}"
+                            HorizontalOptions="Center"
+                            Text="START GAME" />
+                    </Grid>
+                </renderedviews:MaterialFrame>
+                <renderedviews:MaterialFrame Grid.Column="1">
+                    <renderedviews:MaterialFrame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Players_Tapped" />
+                    </renderedviews:MaterialFrame.GestureRecognizers>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Image Source="account-multiple.png" />
+                        <Label
+                            Grid.Column="1"
+                            FontFamily="{StaticResource Bold}"
+                            HorizontalOptions="Center"
+                            Text="PLAYERS" />
+                    </Grid>
+                </renderedviews:MaterialFrame>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
