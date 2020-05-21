@@ -1,0 +1,49 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="4.5.0.617" />  
+    <PackageReference Include="Xamarin.Essentials" Version="1.5.2" />
+    <PackageReference Include="Xamarin.Forms.Visual.Material" Version="4.5.0.617" />
+    <PackageReference Include="Resizetizer.NT" Version="0.1.0-preview8" />
+    <PackageReference Include="Sharpnado.Presentation.Forms" Version="1.5.1" />
+    <PackageReference Include="Xamarin.Forms.PancakeView" Version="1.4.1-beta" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+    <Folder Include="Resources\Icons\" />
+    <Folder Include="Converters\" />
+    <Folder Include="Styles\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Images\Icons\account-plus.svg" />
+    <None Remove="Images\Icons\cards.svg" />
+    <None Remove="Images\Icons\account-multiple.svg" />
+    <None Remove="Resources\Icons\close.svg" />
+    <None Remove="Resources\Icons\arrow-left.svg" />
+    <None Remove="Resources\Icons\delete.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <SharedImage Include="Resources\Icons\account-plus.svg" BaseSize="50,50" />
+    <SharedImage Include="Resources\Icons\cards.svg" BaseSize="35,35" />
+    <SharedImage Include="Resources\Icons\account-multiple.svg" BaseSize="35,35" />
+    <SharedImage Include="Resources\Icons\close.svg" BaseSize="35,35" />
+    <SharedImage Include="Resources\Icons\arrow-left.svg" BaseSize="35,35" />
+    <SharedImage Include="Resources\Icons\delete.svg" BaseSize="35,35" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Resources\Icons\NewGamePage.xaml.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Resources\Icons\NewGamePage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\NewGamePage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

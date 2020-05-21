@@ -1,0 +1,1565 @@
+Function=SystemNative_ConvertErrorPlatformToPal
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/mscorlib.dll
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/System.dll
+Function=SystemNative_ConvertErrorPalToPlatform
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/mscorlib.dll
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/System.dll
+Function=SystemNative_StrErrorR
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/mscorlib.dll
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/System.dll
+Function=SystemNative_GetNonCryptographicallySecureRandomBytes
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_OpenDir
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetReadDirRBufferSize
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_ReadDirR
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_CloseDir
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_ReadLink
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_FStat2
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Stat2
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_LStat2
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Symlink
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_ChMod
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_CopyFile
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetEGid
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetEUid
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_LChflags
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_LChflagsCanSetHiddenFlag
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Link
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_MkDir
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Rename
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_RmDir
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_UTime
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_UTimes
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Unlink
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_timezone_get_local_name
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_timezone_get_names
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_timezone_get_data
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_GetFolderPath
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_log
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_get_locale_country_code
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_find_protocol_wrapper_type
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_release_block_on_main_thread
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_start_wwan
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/System.dll
+Function=xamarin_get_block_descriptor
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSend
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSendSuper
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSend_stret
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSendSuper_stret
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_NMatrix4
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_NMatrix4
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_NMatrix4
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_NMatrix4
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3_objc_msgSend
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3_objc_msgSendSuper
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3_objc_msgSend_stret
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3_objc_msgSendSuper_stret
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix3_objc_msgSend
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix3_objc_msgSendSuper
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix3_objc_msgSend_stret
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix3_objc_msgSendSuper_stret
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__CGPoint_objc_msgSend_NVector3_int_CGSize
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__CGPoint_objc_msgSendSuper_NVector3_int_CGSize
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__CGPoint_objc_msgSend_stret_NVector3_int_CGSize
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__CGPoint_objc_msgSendSuper_stret_NVector3_int_CGSize
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__CGPoint_objc_msgSend_NVector3_Int64_CGSize
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__CGPoint_objc_msgSendSuper_NVector3_Int64_CGSize
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__CGPoint_objc_msgSend_stret_NVector3_Int64_CGSize
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__CGPoint_objc_msgSendSuper_stret_NVector3_Int64_CGSize
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3_objc_msgSend_CGPoint_NMatrix4_int_CGSize
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3_objc_msgSendSuper_CGPoint_NMatrix4_int_CGSize
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3_objc_msgSend_stret_CGPoint_NMatrix4_int_CGSize
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3_objc_msgSendSuper_stret_CGPoint_NMatrix4_int_CGSize
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3_objc_msgSend_CGPoint_NMatrix4_Int64_CGSize
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3_objc_msgSendSuper_CGPoint_NMatrix4_Int64_CGSize
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3_objc_msgSend_stret_CGPoint_NMatrix4_Int64_CGSize
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3_objc_msgSendSuper_stret_CGPoint_NMatrix4_Int64_CGSize
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSend_int_CGSize_nfloat_nfloat
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSendSuper_int_CGSize_nfloat_nfloat
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSend_stret_int_CGSize_nfloat_nfloat
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSendSuper_stret_int_CGSize_nfloat_nfloat
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSend_Int64_CGSize_nfloat_nfloat
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSendSuper_Int64_CGSize_nfloat_nfloat
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSend_stret_Int64_CGSize_nfloat_nfloat
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSendSuper_stret_Int64_CGSize_nfloat_nfloat
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSend_int
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSendSuper_int
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSend_stret_int
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSendSuper_stret_int
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSend_Int64
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSendSuper_Int64
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSend_stret_Int64
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSendSuper_stret_Int64
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_NMatrix4_NVector3
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_NMatrix4_NVector3
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_NMatrix4_NVector3
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_NMatrix4_NVector3
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_NVector3_NVector3_int_int
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_NVector3_NVector3_int_int
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_NVector3_NVector3_Int64_Int64
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_NVector3_NVector3_Int64_Int64
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3_objc_msgSend_CGPoint_NMatrix4
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3_objc_msgSendSuper_CGPoint_NMatrix4
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3_objc_msgSend_stret_CGPoint_NMatrix4
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3_objc_msgSendSuper_stret_CGPoint_NMatrix4
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_NMatrix4
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_NMatrix4
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_NMatrix4_NVector3_NVector3_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_NMatrix4_NVector3_NVector3_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSend_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSendSuper_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSend_stret_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSendSuper_stret_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSend_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSendSuper_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSend_stret_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSendSuper_stret_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4x3_objc_msgSend
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4x3_objc_msgSendSuper
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4x3_objc_msgSend_stret
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4x3_objc_msgSendSuper_stret
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSend_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSend_IntPtr_IntPtr_UInt32
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr_IntPtr_UInt32
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSend_IntPtr_IntPtr_UInt64
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr_IntPtr_UInt64
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSend_IntPtr_nint_nint_nint_UInt32
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr_nint_nint_nint_UInt32
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSend_IntPtr_nint_nint_nint_UInt64
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr_nint_nint_nint_UInt64
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSend_IntPtr_UInt32_nint_UInt32
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr_UInt32_nint_UInt32
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSend_IntPtr_UInt64_nint_UInt64
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr_UInt64_nint_UInt64
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSend
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSendSuper
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSend_stret
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSendSuper_stret
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Vector2
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Vector2
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSend
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSendSuper
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSend_stret
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSendSuper_stret
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Vector3
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Vector3
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Matrix3_objc_msgSend
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Matrix3_objc_msgSendSuper
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Matrix3_objc_msgSend_stret
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Matrix3_objc_msgSendSuper_stret
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Matrix3
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Matrix3
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_NMatrix3
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_NMatrix3
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector2
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector2
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector3
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector3
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2i_objc_msgSend
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2i_objc_msgSendSuper
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2i_objc_msgSend_stret
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2i_objc_msgSendSuper_stret
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector2i_int_int_bool
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector2i_int_int_bool
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector2i_int_int_bool_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector2i_int_int_bool_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector2i
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector2i
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_float_Vector2_Vector2_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_float_Vector2_Vector2_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_float_Vector2_Vector2
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_float_Vector2_Vector2
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__GKTriangle_objc_msgSend_nuint
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__GKTriangle_objc_msgSendSuper_nuint
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__GKTriangle_objc_msgSend_stret_nuint
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__GKTriangle_objc_msgSendSuper_stret_nuint
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__float_objc_msgSend_Vector2
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__float_objc_msgSendSuper_Vector2
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Vector3d
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Vector3d
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2d_objc_msgSend
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2d_objc_msgSendSuper
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2d_objc_msgSend_stret
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2d_objc_msgSendSuper_stret
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_Vector2d_Vector2d_Vector2i_bool
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_Vector2d_Vector2d_Vector2i_bool
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__float_objc_msgSend_Vector2i
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__float_objc_msgSendSuper_Vector2i
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_float_Vector2i
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_float_Vector2i
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__GKBox_objc_msgSend
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__GKBox_objc_msgSendSuper
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__GKBox_objc_msgSend_stret
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__GKBox_objc_msgSendSuper_stret
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_GKBox_float
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_GKBox_float
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_Vector3
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_Vector3
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_GKBox
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_GKBox
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_GKBox
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_GKBox
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSend_nuint
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSendSuper_nuint
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSend_stret_nuint
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSendSuper_stret_nuint
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSend_nuint
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSendSuper_nuint
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSend_stret_nuint
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSendSuper_stret_nuint
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_GKQuad_float
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_GKQuad_float
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_Vector2
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_Vector2
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_GKQuad
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_GKQuad
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_GKQuad
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_GKQuad
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector2_Vector2_float
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector2_Vector2_float
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_Vector2_Vector2
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_Vector2_Vector2
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector2_Vector2
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector2_Vector2
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__GKQuad_objc_msgSend
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__GKQuad_objc_msgSendSuper
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__GKQuad_objc_msgSend_stret
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__GKQuad_objc_msgSendSuper_stret
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_IntPtr_Vector2_Vector2_int
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_IntPtr_Vector2_Vector2_int
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_IntPtr_Vector2_Vector2_Int64
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_IntPtr_Vector2_Vector2_Int64
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_IntPtr_Vector2_Vector2
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_IntPtr_Vector2_Vector2
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MPSAxisAlignedBoundingBox_objc_msgSend
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MPSAxisAlignedBoundingBox_objc_msgSendSuper
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MPSAxisAlignedBoundingBox_objc_msgSend_stret
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MPSAxisAlignedBoundingBox_objc_msgSendSuper_stret
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MPSImageHistogramInfo_objc_msgSend
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MPSImageHistogramInfo_objc_msgSendSuper
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MPSImageHistogramInfo_objc_msgSend_stret
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MPSImageHistogramInfo_objc_msgSendSuper_stret
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector4_objc_msgSend
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector4_objc_msgSendSuper
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector4_objc_msgSend_stret
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector4_objc_msgSendSuper_stret
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Vector4
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Vector4
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_ref_MPSImageHistogramInfo
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_ref_MPSImageHistogramInfo
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_NMatrix4_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_NMatrix4_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_NMatrix4d_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_NMatrix4d_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSend_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSendSuper_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSend_stret_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSendSuper_stret_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4d_objc_msgSend_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4d_objc_msgSendSuper_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4d_objc_msgSend_stret_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4d_objc_msgSendSuper_stret_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Quaternion_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Quaternion_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Quaterniond_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Quaterniond_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Quaternion_objc_msgSend_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Quaternion_objc_msgSendSuper_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Quaternion_objc_msgSend_stret_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Quaternion_objc_msgSendSuper_stret_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Quaterniond_objc_msgSend_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Quaterniond_objc_msgSendSuper_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Quaterniond_objc_msgSend_stret_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Quaterniond_objc_msgSendSuper_stret_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Vector2_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Vector2_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Vector2d_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Vector2d_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSend_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSendSuper_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSend_stret_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSendSuper_stret_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2d_objc_msgSend_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2d_objc_msgSendSuper_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2d_objc_msgSend_stret_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2d_objc_msgSendSuper_stret_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_NVector3_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_NVector3_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_NVector3d_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_NVector3d_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3_objc_msgSend_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3_objc_msgSendSuper_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3_objc_msgSend_stret_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3_objc_msgSendSuper_stret_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3d_objc_msgSend_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3d_objc_msgSendSuper_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3d_objc_msgSend_stret_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3d_objc_msgSendSuper_stret_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Vector4_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Vector4_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Vector4d_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Vector4d_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector4_objc_msgSend_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector4_objc_msgSendSuper_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector4_objc_msgSend_stret_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector4_objc_msgSendSuper_stret_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector4d_objc_msgSend_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector4d_objc_msgSendSuper_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector4d_objc_msgSend_stret_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector4d_objc_msgSendSuper_stret_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4d_objc_msgSend
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4d_objc_msgSendSuper
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4d_objc_msgSend_stret
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4d_objc_msgSendSuper_stret
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_NMatrix4d
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_NMatrix4d
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MDLAxisAlignedBoundingBox_objc_msgSend
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MDLAxisAlignedBoundingBox_objc_msgSendSuper
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MDLAxisAlignedBoundingBox_objc_msgSend_stret
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MDLAxisAlignedBoundingBox_objc_msgSendSuper_stret
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_NVector3
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_NVector3
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MDLAxisAlignedBoundingBox_objc_msgSend_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MDLAxisAlignedBoundingBox_objc_msgSendSuper_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MDLAxisAlignedBoundingBox_objc_msgSend_stret_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MDLAxisAlignedBoundingBox_objc_msgSendSuper_stret_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Matrix4_objc_msgSend
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Matrix4_objc_msgSendSuper
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Matrix4_objc_msgSend_stret
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Matrix4_objc_msgSendSuper_stret
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_MDLAxisAlignedBoundingBox_bool
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_MDLAxisAlignedBoundingBox_bool
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Vector3_Vector3
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Vector3_Vector3
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSend_Vector2i_Vector2i
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSendSuper_Vector2i_Vector2i
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSend_stret_Vector2i_Vector2i
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSendSuper_stret_Vector2i_Vector2i
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_bool_IntPtr_Vector2i_nint_nuint_int_bool
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_bool_IntPtr_Vector2i_nint_nuint_int_bool
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_bool_IntPtr_Vector2i_nint_nuint_Int64_bool
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_bool_IntPtr_Vector2i_nint_nuint_Int64_bool
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_float_IntPtr_Vector2i_int_int_IntPtr_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_float_IntPtr_Vector2i_int_int_IntPtr_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_float_IntPtr_Vector2i_int_Int64_IntPtr_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_float_IntPtr_Vector2i_int_Int64_IntPtr_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_float_float_IntPtr_Vector2i
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_float_float_IntPtr_Vector2i
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_IntPtr_IntPtr_Vector2i
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_IntPtr_IntPtr_Vector2i
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector3_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector3_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Matrix4
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Matrix4
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_UInt32_Vector2
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_UInt32_Vector2
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_UInt64_Vector2
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_UInt64_Vector2
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_UInt32_Vector3
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_UInt32_Vector3
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_UInt64_Vector3
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_UInt64_Vector3
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_UInt32_Vector4
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_UInt32_Vector4
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_UInt64_Vector4
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_UInt64_Vector4
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_UInt32_Matrix4
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_UInt32_Matrix4
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_UInt64_Matrix4
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_UInt64_Matrix4
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_UInt32_NMatrix4
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_UInt32_NMatrix4
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_UInt64_NMatrix4
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_UInt64_NMatrix4
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector3_Vector3i_bool_int_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector3_Vector3i_bool_int_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector3_Vector3i_bool_Int64_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector3_Vector3i_bool_Int64_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector3_Vector2i_bool_int_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector3_Vector2i_bool_int_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector3_Vector2i_bool_Int64_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector3_Vector2i_bool_Int64_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector3_Vector2i_bool_bool_int_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector3_Vector2i_bool_bool_int_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector3_Vector2i_bool_bool_Int64_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector3_Vector2i_bool_bool_Int64_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector3_Vector2i_bool_bool_bool_int_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector3_Vector2i_bool_bool_bool_int_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector3_Vector2i_bool_bool_bool_Int64_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector3_Vector2i_bool_bool_bool_Int64_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector3_Vector2i_int_bool_int_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector3_Vector2i_int_bool_int_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector3_Vector2i_int_bool_Int64_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector3_Vector2i_int_bool_Int64_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector3_Vector2i_int_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector3_Vector2i_int_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector3_Vector2i_Int64_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector3_Vector2i_Int64_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector3_bool_int_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector3_bool_int_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector3_bool_Int64_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector3_bool_Int64_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_int_UInt32_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_int_UInt32_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector3_Vector3i_int_bool_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector3_Vector3i_int_bool_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector3_Vector3i_Int64_bool_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector3_Vector3i_Int64_bool_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector2_Vector2i_int_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector2_Vector2i_int_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector2_Vector2i_Int64_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector2_Vector2i_Int64_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector3_nuint_nuint_int_bool_bool_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector3_nuint_nuint_int_bool_bool_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector3_nuint_nuint_Int64_bool_bool_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector3_nuint_nuint_Int64_bool_bool_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_float_Vector2_nuint_nuint_int_bool_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_float_Vector2_nuint_nuint_int_bool_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_float_Vector2_nuint_nuint_Int64_bool_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_float_Vector2_nuint_nuint_Int64_bool_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_float_Vector2_nuint_nuint_nuint_int_bool_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_float_Vector2_nuint_nuint_nuint_int_bool_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_float_Vector2_nuint_nuint_nuint_Int64_bool_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_float_Vector2_nuint_nuint_nuint_Int64_bool_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__bool_objc_msgSend_Vector2i_nint_float_IntPtr_IntPtr_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__bool_objc_msgSendSuper_Vector2i_nint_float_IntPtr_IntPtr_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__bool_objc_msgSend_Vector2i_IntPtr_IntPtr_IntPtr_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__bool_objc_msgSendSuper_Vector2i_IntPtr_IntPtr_IntPtr_IntPtr
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_float_IntPtr_Vector2i_int
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_float_IntPtr_Vector2i_int
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_float_IntPtr_Vector2i_Int64
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_float_IntPtr_Vector2i_Int64
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_float_IntPtr_Vector2i_int_int_bool
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_float_IntPtr_Vector2i_int_int_bool
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_float_IntPtr_Vector2i_int_Int64_bool
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_float_IntPtr_Vector2i_int_Int64_bool
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_int_Vector2i_float_float_float_float
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_int_Vector2i_float_float_float_float
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_Int64_Vector2i_float_float_float_float
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_Int64_Vector2i_float_float_float_float
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_int_Vector2i_float_float_float_float_float
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_int_Vector2i_float_float_float_float_float
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_Int64_Vector2i_float_float_float_float_float
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_Int64_Vector2i_float_float_float_float_float
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_IntPtr_Vector2i
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_IntPtr_Vector2i
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_IntPtr_Vector2i_float
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_IntPtr_Vector2i_float
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Matrix4
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Matrix4
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Matrix4_bool
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Matrix4_bool
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_NMatrix4_bool
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_NMatrix4_bool
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSend_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSendSuper_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSend_stret_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSendSuper_stret_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Matrix4_objc_msgSend_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Matrix4_objc_msgSendSuper_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Matrix4_objc_msgSend_stret_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Matrix4_objc_msgSendSuper_stret_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Vector3_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Vector3_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Matrix4_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Matrix4_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Matrix4_objc_msgSend_IntPtr_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Matrix4_objc_msgSendSuper_IntPtr_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Matrix4_objc_msgSend_stret_IntPtr_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Matrix4_objc_msgSendSuper_stret_IntPtr_Double
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MDLVoxelIndexExtent2_objc_msgSend
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MDLVoxelIndexExtent2_objc_msgSendSuper
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MDLVoxelIndexExtent2_objc_msgSend_stret
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MDLVoxelIndexExtent2_objc_msgSendSuper_stret
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_MDLAxisAlignedBoundingBox_float
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_MDLAxisAlignedBoundingBox_float
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__bool_objc_msgSend_Vector4i_bool_bool_bool_bool
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__bool_objc_msgSendSuper_Vector4i_bool_bool_bool_bool
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Vector4i
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Vector4i
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_MDLVoxelIndexExtent2
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_MDLVoxelIndexExtent2
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector4i_objc_msgSend_Vector3
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector4i_objc_msgSendSuper_Vector3
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector4i_objc_msgSend_stret_Vector3
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector4i_objc_msgSendSuper_stret_Vector3
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSend_Vector4i
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSendSuper_Vector4i
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSend_stret_Vector4i
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSendSuper_stret_Vector4i
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MDLAxisAlignedBoundingBox_objc_msgSend_Vector4i
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MDLAxisAlignedBoundingBox_objc_msgSendSuper_Vector4i
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MDLAxisAlignedBoundingBox_objc_msgSend_stret_Vector4i
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MDLAxisAlignedBoundingBox_objc_msgSendSuper_stret_Vector4i
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSend_Vector3
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSendSuper_Vector3
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSend_stret_Vector3
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSendSuper_stret_Vector3
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector4
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector4
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_vector_float3__Vector4_objc_msgSend
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_vector_float3__Vector4_objc_msgSendSuper
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_vector_float3__Vector4_objc_msgSend_stret
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_vector_float3__Vector4_objc_msgSendSuper_stret
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_vector_float3__void_objc_msgSend_Vector4
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_vector_float3__void_objc_msgSendSuper_Vector4
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Quaternion_objc_msgSend
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Quaternion_objc_msgSendSuper
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Quaternion_objc_msgSend_stret
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Quaternion_objc_msgSendSuper_stret
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Quaternion
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Quaternion
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix2_objc_msgSend
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix2_objc_msgSendSuper
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix2_objc_msgSend_stret
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix2_objc_msgSendSuper_stret
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_NMatrix2
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_NMatrix2
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_Vector4
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_Vector4
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_Matrix2
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_Matrix2
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_NMatrix2
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_NMatrix2
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_Matrix3
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_Matrix3
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_NMatrix3
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_NMatrix3
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_Matrix4
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_Matrix4
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSend_nint
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSendSuper_nint
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSend_stret_nint
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSendSuper_stret_nint
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_CGPoint__VNNormalizedFaceBoundingBoxPointForLandmarkPoint_Vector2_CGRect_nuint_nuint_string
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_CGPoint__VNImagePointForFaceLandmarkPoint_Vector2_CGRect_nuint_nuint_string
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=UIApplicationMain
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_localized_string_format
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_localized_string_format_1
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_localized_string_format_2
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_localized_string_format_3
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_localized_string_format_4
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_localized_string_format_5
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_localized_string_format_6
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_localized_string_format_7
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_localized_string_format_8
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_localized_string_format_9
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_init_nsthread
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_os_log
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=NetSecurityNative_ReleaseGssBuffer
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_DisplayMinorStatus
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_DisplayMajorStatus
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ImportUserName
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ImportPrincipalName
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ReleaseName
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitiateCredSpNego
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitiateCredWithPassword
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ReleaseCred
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitSecContext
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitSecContextEx
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_AcceptSecContext
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_DeleteSecContext
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_GetUser
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_Wrap
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_Unwrap
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/System.dll
+Function=SystemNative_GetDomainSocketSizes
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/System.Core.dll
+Function=BrotliDecoderCreateInstance
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliDecoderDecompressStream
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliDecoderDecompress
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliDecoderDestroyInstance
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliDecoderIsFinished
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliEncoderCreateInstance
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliEncoderSetParameter
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliEncoderCompressStream
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliEncoderHasMoreOutput
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliEncoderDestroyInstance
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliEncoderCompress
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/System.IO.Compression.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCShapedView
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCBottomAppBarColorThemer
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCTextFieldColorThemer
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCTextFieldFontThemer
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCTextFieldTypographyThemer
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+Field=MaterialComponentsVersionNumber
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+Field=MaterialComponentsVersionString
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCCardScheme
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+Field=MDCChipFieldDefaultMinTextFieldWidth
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+Field=MDCChipFieldDefaultContentEdgeInsets
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCChipField
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCActivityIndicator
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCActivityIndicatorColorThemer
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCActivityIndicatorTransition
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCAlertAction
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCAlertColorThemer
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCAlertController
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCAlertControllerThemer
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCAlertControllerView
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCAlertScheme
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCAlertTypographyThemer
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCAppBar
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCAppBarColorThemer
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCAppBarContainerViewController
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCAppBarNavigationController
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCAppBarTypographyThemer
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCAppBarViewController
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCBaseCell
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCBasicColorScheme
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCBasicFontScheme
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCBottomAppBarView
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCBottomDrawerColorThemer
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCBottomDrawerPresentationController
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCBottomDrawerTransitionController
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCBottomDrawerViewController
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCBottomNavigationBar
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCBottomNavigationBarColorThemer
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCBottomNavigationBarTypographyThemer
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCBottomSheetController
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCBottomSheetControllerShapeThemer
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCBottomSheetPresentationController
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCBottomSheetTransitionController
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCButton
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCButtonBar
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCButtonBarButton
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCButtonBarColorThemer
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCButtonBarTypographyThemer
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCButtonColorThemer
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCButtonScheme
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCButtonShapeThemer
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCButtonTitleColorAccessibilityMutator
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCButtonTypographyThemer
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCCard
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCCardCollectionCell
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCCardsColorThemer
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCCardsShapeThemer
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCCardThemer
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCChipCollectionViewCell
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCChipCollectionViewFlowLayout
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCChipView
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCChipViewColorThemer
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCChipViewFontThemer
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCChipViewScheme
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCChipViewShapeThemer
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCChipViewThemer
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCChipViewTypographyThemer
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+Field=kDeselectedCellAccessibilityHintKey
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+Field=kSelectedCellAccessibilityHintKey
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+Field=MDCCollectionViewCellStyleCardSectionInset
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCCollectionViewCell
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCCollectionViewController
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCCollectionViewFlowLayout
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCCollectionViewLayoutAttributes
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+Field=MDCCellDefaultOneLineHeight
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+Field=MDCCellDefaultOneLineWithAvatarHeight
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+Field=MDCCellDefaultThreeLineHeight
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+Field=MDCCellDefaultTwoLineHeight
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCCollectionViewTextCell
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCContainedButtonColorThemer
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCContainedButtonThemer
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCCornerTreatment
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCCurvedCornerTreatment
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCCurvedRectShapeGenerator
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCCutCornerTreatment
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCDialogPresentationController
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCDialogTransitionController
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCEdgeTreatment
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCFeatureHighlightAccessibilityMutator
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCFeatureHighlightColorThemer
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCFeatureHighlightFontThemer
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCFeatureHighlightTypographyThemer
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCFeatureHighlightView
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+Field=kMDCFeatureHighlightOuterHighlightAlpha
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCFeatureHighlightViewController
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCFilledTextFieldColorThemer
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCFlatButton
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCFlexibleHeaderColorThemer
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCFlexibleHeaderContainerViewController
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCFlexibleHeaderView
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCFlexibleHeaderViewController
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCFloatingActionButtonThemer
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCFloatingButton
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCFloatingButtonColorThemer
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCFloatingButtonShapeThemer
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCHeaderStackView
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCHeaderStackViewColorThemer
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCIcons
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCInkColorThemer
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCInkGestureRecognizer
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCInkTouchController
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCInkView
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCIntrinsicHeightTextView
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+Field=MDCKeyboardWatcherKeyboardWillChangeFrameNotification
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+Field=MDCKeyboardWatcherKeyboardWillHideNotification
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+Field=MDCKeyboardWatcherKeyboardWillShowNotification
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCKeyboardWatcher
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCLibraryInfo
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCListColorThemer
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCListScheme
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCListThemer
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCListTypographyThemer
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCMaskedTransitionController
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCMultilineTextField
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCNavigationBar
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCNavigationBarColorThemer
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCNavigationBarTextColorAccessibilityMutator
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCNavigationBarTypographyThemer
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCNumericValueLabel
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCOutlinedButtonColorThemer
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCOutlinedButtonThemer
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCOutlinedTextFieldColorThemer
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCOverlayObserver
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCOverlayWindow
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCPageControl
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCPageControlColorThemer
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+Field=MDCPaletteAccent100Name
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+Field=MDCPaletteAccent200Name
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+Field=MDCPaletteAccent400Name
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+Field=MDCPaletteAccent700Name
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+Field=MDCPaletteTint100Name
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+Field=MDCPaletteTint200Name
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+Field=MDCPaletteTint300Name
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+Field=MDCPaletteTint400Name
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+Field=MDCPaletteTint500Name
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+Field=MDCPaletteTint50Name
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+Field=MDCPaletteTint600Name
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+Field=MDCPaletteTint700Name
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+Field=MDCPaletteTint800Name
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+Field=MDCPaletteTint900Name
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCPalette
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCPathGenerator
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCPillShapeGenerator
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCProgressView
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCProgressViewColorThemer
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCRaisedButton
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCRectangleShapeGenerator
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCRoundedCornerTreatment
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCSelfSizingStereoCell
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCSemanticColorScheme
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCShadowLayer
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCShadowMetrics
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCShapeCategory
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCShapedShadowLayer
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCShapeScheme
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCSlantedRectShapeGenerator
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCSlider
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCSliderColorThemer
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCSnackbarColorThemer
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCSnackbarFontThemer
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCSnackbarManager
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+Field=MDCSnackbarMessageBoldAttributeName
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+Field=MDCSnackbarMessageDurationMax
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCSnackbarMessage
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCSnackbarMessageAction
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCSnackbarMessageView
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCSnackbarTypographyThemer
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCSystemFontLoader
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCTabBar
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCTabBarColorThemer
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCTabBarFontThemer
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCTabBarIndicatorAttributes
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCTabBarTypographyThemer
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCTabBarUnderlineIndicatorTemplate
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+Field=MDCTabBarViewControllerAnimationDuration
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCTabBarViewController
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCTextButtonColorThemer
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCTextButtonThemer
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+Field=MDCTextFieldTextDidSetTextNotification
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+Field=MDCTextInputDidToggleEnabledNotification
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCTextField
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCTextInputAllCharactersCounter
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCTextInputBorderView
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+Field=MDCTextInputControllerBaseDefaultBorderRadius
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCTextInputControllerBase
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCTextInputControllerFilled
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCTextInputControllerFullWidth
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCTextInputControllerLegacyDefault
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCTextInputControllerLegacyFullWidth
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCTextInputControllerOutlined
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCTextInputControllerOutlinedTextArea
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCTextInputControllerUnderline
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCTextInputUnderlineView
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCThumbTrack
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCThumbView
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCTonalColorScheme
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCTonalPalette
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCTriangleEdgeTreatment
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCTypography
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+ObjectiveCClass=OBJC_CLASS_$_MDCTypographyScheme
+	/Users/kevin/Projects/Beanies/Beanies.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro-13.4/mtouch-cache/1-Link/MaterialComponents.dll
+Function=mono_pmip
+Function=xamarin_dyn_objc_msgSend
+Function=xamarin_dyn_objc_msgSendSuper
+Function=xamarin_dyn_objc_msgSend_stret
+Function=xamarin_dyn_objc_msgSendSuper_stret
