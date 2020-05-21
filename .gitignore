@@ -1,1 +1,8 @@
 Beanies-Backend/node_modules/*
+Beanies-App/.vs/
+Beanies-App/Beanies.Android/bin/
+Beanies-App/Beanies.Android/obj/
+Beanies-App/Beanies.iOS/bin/
+Beanies-App/Beanies.iOS/obj/
+Beanies-App/Beanies/bin/
+Beanies-App/Beanies/obj/
