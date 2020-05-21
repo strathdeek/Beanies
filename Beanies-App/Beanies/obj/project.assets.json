@@ -827,11 +827,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/kevin/Projects/Beanies/Beanies/Beanies.csproj",
+      "projectUniqueName": "/Users/kevin/Beanies/Beanies-App/Beanies/Beanies.csproj",
       "projectName": "Beanies",
-      "projectPath": "/Users/kevin/Projects/Beanies/Beanies/Beanies.csproj",
+      "projectPath": "/Users/kevin/Beanies/Beanies-App/Beanies/Beanies.csproj",
       "packagesPath": "/Users/kevin/.nuget/packages/",
-      "outputPath": "/Users/kevin/Projects/Beanies/Beanies/obj/",
+      "outputPath": "/Users/kevin/Beanies/Beanies-App/Beanies/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/kevin/.config/NuGet/NuGet.Config"
@@ -898,7 +898,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.300/RuntimeIdentifierGraph.json"
       }
     }
   }

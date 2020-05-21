@@ -1421,11 +1421,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/kevin/Projects/Beanies/Beanies.iOS/Beanies.iOS.csproj",
+      "projectUniqueName": "/Users/kevin/Beanies/Beanies-App/Beanies.iOS/Beanies.iOS.csproj",
       "projectName": "Beanies.iOS",
-      "projectPath": "/Users/kevin/Projects/Beanies/Beanies.iOS/Beanies.iOS.csproj",
+      "projectPath": "/Users/kevin/Beanies/Beanies-App/Beanies.iOS/Beanies.iOS.csproj",
       "packagesPath": "/Users/kevin/.nuget/packages/",
-      "outputPath": "/Users/kevin/Projects/Beanies/Beanies.iOS/obj/",
+      "outputPath": "/Users/kevin/Beanies/Beanies-App/Beanies.iOS/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -1441,8 +1441,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/kevin/Projects/Beanies/Beanies/Beanies.csproj": {
-              "projectPath": "/Users/kevin/Projects/Beanies/Beanies/Beanies.csproj"
+            "/Users/kevin/Beanies/Beanies-App/Beanies/Beanies.csproj": {
+              "projectPath": "/Users/kevin/Beanies/Beanies-App/Beanies/Beanies.csproj"
             }
           }
         }

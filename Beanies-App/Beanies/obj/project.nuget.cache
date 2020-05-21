@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "cRLH4d0ZzMa1OV8J1OASfK3F86tqZex9V40Q3mRF0JiQhdxFs5d7s/DpmyRUih5Bf4y71YcQyeu7w+eHUyXMVg==",
+  "success": true,
+  "projectFilePath": "/Users/kevin/Beanies/Beanies-App/Beanies/Beanies.csproj",
+  "expectedPackageFiles": [
+    "/Users/kevin/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/kevin/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/Users/kevin/.nuget/packages/resizetizer.nt/0.1.0-preview8/resizetizer.nt.0.1.0-preview8.nupkg.sha512",
+    "/Users/kevin/.nuget/packages/sharpnado.presentation.forms/1.5.1/sharpnado.presentation.forms.1.5.1.nupkg.sha512",
+    "/Users/kevin/.nuget/packages/sharpnado.taskloaderview/2.0.0/sharpnado.taskloaderview.2.0.0.nupkg.sha512",
+    "/Users/kevin/.nuget/packages/sharpnado.taskmonitor/1.0.0/sharpnado.taskmonitor.1.0.0.nupkg.sha512",
+    "/Users/kevin/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/kevin/.nuget/packages/xamarin.essentials/1.5.2/xamarin.essentials.1.5.2.nupkg.sha512",
+    "/Users/kevin/.nuget/packages/xamarin.forms/4.5.0.617/xamarin.forms.4.5.0.617.nupkg.sha512",
+    "/Users/kevin/.nuget/packages/xamarin.forms.pancakeview/1.4.1-beta/xamarin.forms.pancakeview.1.4.1-beta.nupkg.sha512",
+    "/Users/kevin/.nuget/packages/xamarin.forms.visual.material/4.5.0.617/xamarin.forms.visual.material.4.5.0.617.nupkg.sha512"
+  ],
+  "logs": []
+}
