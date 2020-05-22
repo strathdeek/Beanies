@@ -23,7 +23,7 @@ namespace Beanies.Views
 
         async void AddNewPlayer(System.Object sender, System.EventArgs e)
         {
-            if(sender is ContentView view)
+            if (sender is ContentView view)
             {
                 await AnimateTap(view);
             }

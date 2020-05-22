@@ -67,7 +67,7 @@
                     <ColumnDefinition Width="*" />
                     <ColumnDefinition Width="*" />
                 </Grid.ColumnDefinitions>
-                <renderedviews:MaterialFrame x:Name="StartGameButton">
+                <renderedviews:MaterialFrame x:Name="StartGameButton" Padding="5">
                     <renderedviews:MaterialFrame.GestureRecognizers>
                         <TapGestureRecognizer Tapped="StartGame_Tapped" />
                     </renderedviews:MaterialFrame.GestureRecognizers>
@@ -80,11 +80,13 @@
                         <Label
                             Grid.Column="1"
                             FontFamily="{StaticResource Bold}"
+                            FontSize="Subtitle"
                             HorizontalOptions="Center"
+                            VerticalOptions="Center"
                             Text="START GAME" />
                     </Grid>
                 </renderedviews:MaterialFrame>
-                <renderedviews:MaterialFrame Grid.Column="1">
+                <renderedviews:MaterialFrame Grid.Column="1" Padding="5">
                     <renderedviews:MaterialFrame.GestureRecognizers>
                         <TapGestureRecognizer Tapped="Players_Tapped" />
                     </renderedviews:MaterialFrame.GestureRecognizers>
@@ -97,6 +99,9 @@
                         <Label
                             Grid.Column="1"
                             FontFamily="{StaticResource Bold}"
+                            FontSize="Subtitle"
+                            VerticalOptions="Center"
+                            VerticalTextAlignment="Center"
                             HorizontalOptions="Center"
                             Text="PLAYERS" />
                     </Grid>

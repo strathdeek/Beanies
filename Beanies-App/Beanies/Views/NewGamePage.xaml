@@ -9,21 +9,37 @@
         <viewmodels:NewGameViewModel />
     </ContentPage.BindingContext>
     <ContentPage.Content>
-        <StackLayout Padding="20,0,20,20">
+        <StackLayout Margin="0,20,0,20" >
             <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition
+                        Height="Auto" />
+                </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*" />
                     <ColumnDefinition Width="*" />
                     <ColumnDefinition Width="*" />
                 </Grid.ColumnDefinitions>
-                <ImageButton
+                <renderedviews:MaterialFrame
                     x:Name="BackButton"
-                    Clicked="GoBack"
+                    Grid.Column="0"
+                    Padding="5"
+                    HeightRequest="20"
+                    CornerRadius="18"
                     HorizontalOptions="Start"
+                    VerticalOptions="Start"
+                    WidthRequest="20">
+                    <renderedviews:MaterialFrame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="GoBack"/>
+                    </renderedviews:MaterialFrame.GestureRecognizers>
+                    <Image
                     Source="arrow-left.png" />
+                </renderedviews:MaterialFrame>
+                
                 <Label
                     Grid.Column="1"
-                    FontSize="Large"
+                    FontSize="Title"
+                    FontFamily="{StaticResource Bold}"
                     HorizontalOptions="Center"
                     Text="NEW GAME" />
 

@@ -184,12 +184,12 @@
                     BackgroundGradientStartColor="{StaticResource BackgroundLight}" />
                 <renderedviews:MaterialFrame
                     x:Name="BackButton"
-                    HeightRequest="30"
+                    HeightRequest="20"
                     Padding="5"
                     CornerRadius="18"
                     HorizontalOptions="Start"
                     VerticalOptions="Start"
-                    WidthRequest="30" >
+                    WidthRequest="20" >
                     <Image Source="close.png"/>
                     <renderedviews:MaterialFrame.GestureRecognizers>
                         <TapGestureRecognizer Tapped="Close"/>
