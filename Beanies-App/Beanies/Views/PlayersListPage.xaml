@@ -4,8 +4,8 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:pancakeview="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
-    xmlns:renderedviews="clr-namespace:Sharpnado.Presentation.Forms.RenderedViews;assembly=Sharpnado.Presentation.Forms"
-    xmlns:viewmodels="clr-namespace:Beanies.ViewModels"
+    xmlns:viewmodels="clr-namespace:Beanies.ViewModels" 
+    xmlns:renderedviews="clr-namespace:Sharpnado.MaterialFrame;assembly=Sharpnado.MaterialFrame"
     x:Name="root"
     BackgroundColor="{StaticResource BackgroundLight}"
     NavigationPage.HasNavigationBar="False">
@@ -13,7 +13,7 @@
         <viewmodels:PlayersListViewModel />
     </ContentPage.BindingContext>
     <ContentPage.Content>
-        <Grid Margin="0,40,0,0">
+        <Grid Margin="0,20,0,0">
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto" />
                 <RowDefinition Height="*" />
@@ -29,7 +29,7 @@
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <ContentView Margin="10">
-                            <renderedviews:MaterialFrame Padding="0">
+                            <renderedviews:MaterialFrame Elevation="4" Margin="20" Padding="0">
                                 <Grid>
                                     <Grid.RowDefinitions>
                                         <RowDefinition Height="*" />
@@ -151,13 +151,13 @@
                     <StackLayout Padding="0,0,0,20" Orientation="Horizontal">
                         <renderedviews:MaterialFrame
                             Padding="10"
-                            Elevation="4"
+                            Elevation="2"
                             HorizontalOptions="FillAndExpand">
                             <Entry Text="{Binding Name}" />
                         </renderedviews:MaterialFrame>
                         <renderedviews:MaterialFrame
                             Padding="10"
-                            Elevation="4"
+                            Elevation="2"
                             HorizontalOptions="End">
                             <Image
                                 HeightRequest="30"
@@ -182,17 +182,23 @@
                     Grid.ColumnSpan="3"
                     BackgroundGradientEndColor="Transparent"
                     BackgroundGradientStartColor="{StaticResource BackgroundLight}" />
-                <ImageButton
+                <renderedviews:MaterialFrame
                     x:Name="BackButton"
-                    Clicked="Close"
                     HeightRequest="30"
+                    Padding="5"
+                    CornerRadius="18"
                     HorizontalOptions="Start"
-                    Source="close.png"
                     VerticalOptions="Start"
-                    WidthRequest="30" />
+                    WidthRequest="30" >
+                    <Image Source="close.png"/>
+                    <renderedviews:MaterialFrame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Close"/>
+                    </renderedviews:MaterialFrame.GestureRecognizers>
+                </renderedviews:MaterialFrame>
                 <Label
                     Grid.Column="1"
-                    FontSize="Large"
+                    FontFamily="{StaticResource Bold}"
+                    FontSize="Title"
                     HorizontalOptions="Center"
                     Text="PLAYERS"
                     VerticalOptions="Start" />

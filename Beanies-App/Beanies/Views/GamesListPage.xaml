@@ -3,15 +3,14 @@
     x:Class="Beanies.Views.GamesListPage"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:renderedviews="clr-namespace:Sharpnado.Presentation.Forms.RenderedViews;assembly=Sharpnado.Presentation.Forms"
-    xmlns:viewmodels="clr-namespace:Beanies.ViewModels"
+    xmlns:viewmodels="clr-namespace:Beanies.ViewModels" xmlns:renderedviews="clr-namespace:Sharpnado.MaterialFrame;assembly=Sharpnado.MaterialFrame"
     BackgroundColor="{StaticResource BackgroundLight}"
     NavigationPage.HasNavigationBar="False">
     <ContentPage.BindingContext>
         <viewmodels:GamesListViewModel />
     </ContentPage.BindingContext>
     <ContentPage.Content>
-        <StackLayout Margin="0,20" Padding="10,30,10,10">
+        <StackLayout Margin="0,20" Padding="10,0,10,10">
             <Label
                 FontFamily="{StaticResource Bold}"
                 FontSize="Title"
