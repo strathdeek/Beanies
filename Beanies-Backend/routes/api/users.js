@@ -94,6 +94,11 @@ router.post("/register", (req, res, next) => {
 // register guest
 router.post("/guest", (req, res, next) => {
   const { name } = req.body;
+  let errors = [];
+  if (!name) {
+    errors.push({ msg: "Must provide name" });
+    res.status(401).json({ success: false, errors: errors });
+  }
   const newUser = new User({
     name: name,
     guest: true,
