@@ -23,5 +23,14 @@ namespace Beanies.Models
 
         [JsonProperty(PropertyName = "scores")]
         public Dictionary<User, int[]> Scores { get; set; }
+
+        [JsonIgnore]
+        public int Rounds { 
+            get
+            {
+                return 5;
+            }
+
+        }
     }
 }

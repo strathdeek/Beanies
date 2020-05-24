@@ -84,7 +84,7 @@ namespace Beanies.ViewModels
             }
             else
             {
-                var game = new Game(Title, SelectedPlayers, NumberOfRounds);
+                var game = new Game();
                 return await GameDataStore.AddAsync(game);
             }
         }

@@ -52,7 +52,7 @@ namespace Beanies.ViewModels
         {
             if (!string.IsNullOrEmpty(Name))
             {
-                await PlayerDataStore.AddAsync(new User(Name));
+                await PlayerDataStore.AddAsync(new User()); //todo: FIX ME
             }
             Name = string.Empty;
             FetchPlayers();
