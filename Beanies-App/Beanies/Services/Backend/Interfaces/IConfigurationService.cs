@@ -6,6 +6,6 @@ namespace Beanies.Services
 {
     interface IConfigurationService
     {
-         string BackendUrl { get; }
+         string BackendBaseUrl { get; }
     }
 }

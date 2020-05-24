@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Serialization;
+using System;
 namespace Beanies.Models
 {
     public class User
@@ -7,29 +9,16 @@ namespace Beanies.Models
         {
         }
 
-        public User(string name)
-        {
-            Name = name;
-            Id = Guid.NewGuid().ToString();
-            GamesPlayed = 0;
-            Wins = 0;
-        }
-
-        public string Name { get; set; }
+        [JsonProperty(propertyName: "id")]
         public string Id { get; set; }
-        public int GamesPlayed { get; set; }
-        public int Wins { get; set; }
-        public double WinRate
-        {
-            get
-            {
-                if (GamesPlayed != 0)
-                {
-                    return ((double)Wins / GamesPlayed);
-                }
-                else return 0;
-            }
-        }
 
+        [JsonProperty(PropertyName = "name")]
+        public string Name { get; set; }
+
+        [JsonProperty(PropertyName = "guest")]
+        public bool Guest { get; set; }
+
+        [JsonProperty(PropertyName = "email")]
+        public string Email { get; set; }
     }
 }
