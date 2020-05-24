@@ -29,9 +29,7 @@ namespace Beanies.Services
                     Id = new Guid().ToString(),
                     Name = "Kevin + Alex game",
                     Players = playerSet1,
-                    CurrentRound = 5,
-                    TotalRounds = 12,
-                    ScoreBoard = new Dictionary<User, int>()
+                    Scores = new Dictionary<User, int>()
                     {
                         {kevin,27 },
                         {alex,50 }
@@ -42,9 +40,7 @@ namespace Beanies.Services
                     Id = new Guid().ToString(),
                     Name = "Game with Elif",
                     Players = playerSet2,
-                    CurrentRound = 9,
-                    TotalRounds = 12,
-                    ScoreBoard = new Dictionary<User, int>()
+                    Scores = new Dictionary<User, int>()
                     {
                         {kevin,109 },
                         {alex,58 },

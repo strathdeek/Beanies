@@ -22,6 +22,6 @@ namespace Beanies.Models
         public List<User> Players { get; set; }
 
         [JsonProperty(PropertyName = "scores")]
-        public Dictionary<User, int> Scores { get; set; }
+        public Dictionary<User, int[]> Scores { get; set; }
     }
 }
