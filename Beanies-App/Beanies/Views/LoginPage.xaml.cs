@@ -29,7 +29,7 @@ namespace Beanies.Views
             }
         }
 
-        private async void NavigateToRegistrationPage()
+        private async void NavigateToRegistrationPage(object s, EventArgs e)
         {
             await Navigation.PushAsync(new RegisterPage());
         }

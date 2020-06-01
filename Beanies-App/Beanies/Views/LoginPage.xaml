@@ -87,6 +87,10 @@
                     FontFamily="{StaticResource Bold}"
                     Text="Create New Account"
                     HorizontalOptions="Center" />
+                <materialframe:MaterialFrame.GestureRecognizers>
+                    <TapGestureRecognizer
+                        Tapped="NavigateToRegistrationPage" />
+                </materialframe:MaterialFrame.GestureRecognizers>
             </materialframe:MaterialFrame>
 
         </StackLayout>
