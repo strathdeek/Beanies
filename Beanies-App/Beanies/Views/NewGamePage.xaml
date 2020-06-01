@@ -126,7 +126,7 @@
                                             <Label
                                                 FontSize="Small"
                                                 HorizontalOptions="Center"
-                                                Text="{Binding GamesPlayed}"
+                                                Text="Binding GamesPlayed"
                                                 VerticalOptions="Center" />
                                         </Frame>
                                     </StackLayout>
@@ -151,7 +151,7 @@
                                             <Label
                                                 FontSize="Small"
                                                 HorizontalOptions="Center"
-                                                Text="{Binding GamesPlayed}"
+                                                Text="Binding GamesPlayed"
                                                 VerticalOptions="Center" />
                                         </Frame>
 
@@ -177,7 +177,7 @@
                                             <Label
                                                 FontSize="Small"
                                                 HorizontalOptions="Center"
-                                                Text="{Binding WinRate, StringFormat='{0:#.00}'}"
+                                                Text="Winrate'{0:#.00}'}"
                                                 VerticalOptions="Center" />
                                         </Frame>
                                     </StackLayout>

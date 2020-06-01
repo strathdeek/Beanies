@@ -3,6 +3,8 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Beanies.Services;
 using Beanies.Views;
+using Beanies.Services.Backend.Interfaces;
+using Beanies.Services.Backend;
 
 namespace Beanies
 {
@@ -15,7 +17,10 @@ namespace Beanies
 
             DependencyService.Register<MockUserDataStore>();
             DependencyService.Register<MockGameDataStore>();
-            MainPage = new NavigationPage(new GamesListPage());
+            DependencyService.Register<IConfigurationService, ConfigurationService>();
+            DependencyService.Register<ISessionService, SessionService>();
+            DependencyService.Register<IUserService, UserService>();
+            MainPage = new NavigationPage(new LoginPage());
         }
 
         protected override void OnStart()

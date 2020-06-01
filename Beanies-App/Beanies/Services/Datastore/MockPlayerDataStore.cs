@@ -14,9 +14,9 @@ namespace Beanies.Services
         {
             players = new List<User>()
             {
-                new User { Id = Guid.NewGuid().ToString(), Name = "Kevin", GamesPlayed = 7, Wins = 7 },
-                new User { Id = Guid.NewGuid().ToString(), Name = "Alex", GamesPlayed = 12, Wins = 10},
-                new User { Id = Guid.NewGuid().ToString(), Name = "Elif", GamesPlayed = 37, Wins = 25 }
+                new User { Id = Guid.NewGuid().ToString(), Name = "Kevin", Guest = false},
+                new User { Id = Guid.NewGuid().ToString(), Name = "Alex", Guest = true},
+                new User { Id = Guid.NewGuid().ToString(), Name = "Elif", Guest = true }
             };
         }
 

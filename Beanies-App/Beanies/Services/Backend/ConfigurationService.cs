@@ -4,7 +4,8 @@ using System.Text;
 
 namespace Beanies.Services.Backend
 {
-    class ConfigurationService
+    class ConfigurationService : IConfigurationService
     {
+        public string BackendBaseUrl => "http://www.strathdeek.com";
     }
 }

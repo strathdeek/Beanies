@@ -49,13 +49,13 @@
                                         Grid.Column="0"
                                         Margin="5,0,0,0"
                                         FontFamily="{StaticResource Medium}"
-                                        Text="{Binding PlayersDisplayText}" />
+                                        Text="PlayersDisplayText" />
                                     <Label
                                         Grid.Row="1"
                                         Grid.Column="1"
                                         Grid.ColumnSpan="2"
                                         FontFamily="{StaticResource Medium}"
-                                        Text="{Binding RoundsDisplayText}" />
+                                        Text="Something" />
                                 </Grid>
                             </renderedviews:MaterialFrame>
                         </ContentView>
