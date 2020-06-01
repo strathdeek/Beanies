@@ -1,13 +1,22 @@
-﻿using System;
+﻿using Beanies.Services.Backend;
+using Beanies.Services.Backend.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Text;
+using System.Threading.Tasks;
+using Xamarin.Essentials;
+using Xamarin.Forms;
 
 namespace Beanies.ViewModels
 {
     class LoginViewModel : BaseViewModel
     {
+        IUserService userService => DependencyService.Resolve<IUserService>();
 
+        public LoginViewModel()
+        {
+        }
         private string password;
         public string Password
         {
@@ -31,6 +40,10 @@ namespace Beanies.ViewModels
             }
         }
 
+        public async Task<bool> LoginAsync()
+        {
+            return await userService.LoginAsync(Email, Password);
+        }
     }
 
 

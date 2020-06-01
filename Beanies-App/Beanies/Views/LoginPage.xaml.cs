@@ -28,5 +28,10 @@ namespace Beanies.Views
                 App.Current.MainPage = new NavigationPage(new GamesListPage());
             }
         }
+
+        private async void NavigateToRegistrationPage()
+        {
+            await Navigation.PushAsync(new RegisterPage());
+        }
     }
 }

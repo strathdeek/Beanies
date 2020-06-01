@@ -12,13 +12,13 @@
         <viewmodels:LoginViewModel />
     </ContentPage.BindingContext>
     <ContentPage.Content>
-        <StackLayout Padding="20,20">
+        <StackLayout Padding="20,20" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
             <Label Text="BEANIES"
                    FontSize="Title"
                    FontFamily="{StaticResource Bold}"
                 VerticalOptions="Start" 
                 HorizontalOptions="StartAndExpand" />
-            <materialframe:MaterialFrame VerticalOptions="Center" Margin="20">
+            <materialframe:MaterialFrame VerticalOptions="CenterAndExpand" Margin="20">
                 <StackLayout>
                     <Label
                         Text="SIGN IN"
@@ -80,6 +80,15 @@
                     </materialframe:MaterialFrame>
                 </StackLayout>
             </materialframe:MaterialFrame>
+            <materialframe:MaterialFrame Padding="10,5" HorizontalOptions="Center" VerticalOptions="End">
+                <Label
+                    Margin="0,0"
+                    FontSize="Subtitle"
+                    FontFamily="{StaticResource Bold}"
+                    Text="Create New Account"
+                    HorizontalOptions="Center" />
+            </materialframe:MaterialFrame>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
