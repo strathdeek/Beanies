@@ -4,8 +4,10 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:viewmodels="clr-namespace:Beanies.ViewModels"
+    xmlns:materialframe="clr-namespace:Sharpnado.MaterialFrame;assembly=Sharpnado.MaterialFrame"
     mc:Ignorable="d"
-             x:Class="Beanies.Views.RegisterPage">
+    Style="{StaticResource ContentPageDefault}"
+    x:Class="Beanies.Views.RegisterPage">
     <ContentPage.BindingContext>
         <viewmodels:RegisterViewModel />
     </ContentPage.BindingContext>
@@ -16,4 +18,141 @@
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>
     </ContentPage.Content>
+    <StackLayout
+        Padding="20,20"
+        VerticalOptions="FillAndExpand"
+        HorizontalOptions="FillAndExpand">
+        <Label
+            Text="BEANIES"
+            FontSize="Title"
+            FontFamily="{StaticResource Bold}"
+            VerticalOptions="Start"
+            HorizontalOptions="StartAndExpand" />
+        <materialframe:MaterialFrame
+            VerticalOptions="CenterAndExpand"
+            Margin="20">
+            <StackLayout>
+                <Label
+                    Text="NEW USER"
+                    FontSize="Subtitle"
+                    FontFamily="{StaticResource Bold}"
+                    HorizontalOptions="Center" />
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition
+                            Width="2*" />
+                        <ColumnDefinition
+                            Width="8*" />
+                    </Grid.ColumnDefinitions>
+                    <Label
+                        VerticalOptions="Center"
+                        VerticalTextAlignment="Center"
+                        Grid.Column="0"
+                        Text="Email"
+                        FontFamily="{StaticResource Bold}" />
+                    <Entry
+                        Grid.Column="1"
+                        HorizontalOptions="FillAndExpand"
+                        Text="{Binding Email}" />
+                </Grid>
+                <Grid
+                    VerticalOptions="StartAndExpand"
+                    HorizontalOptions="StartAndExpand">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition
+                            Width="2*" />
+                        <ColumnDefinition
+                            Width="8*" />
+                    </Grid.ColumnDefinitions>
+                    <Label
+                        VerticalOptions="Center"
+                        VerticalTextAlignment="Center"
+                        Grid.Column="0"
+                        Text="Name"
+                        FontFamily="{StaticResource Bold}" />
+                    <Entry
+                        Grid.Column="1"
+                        HorizontalOptions="FillAndExpand"
+                        Text="{Binding Name}" />
+                </Grid>
+                <Grid
+                    VerticalOptions="StartAndExpand"
+                    HorizontalOptions="StartAndExpand">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition
+                            Width="2*" />
+                        <ColumnDefinition
+                            Width="8*" />
+                    </Grid.ColumnDefinitions>
+                    <Label
+                        VerticalOptions="Center"
+                        VerticalTextAlignment="Center"
+                        Grid.Column="0"
+                        Text="Password"
+                        FontFamily="{StaticResource Bold}" />
+                    <Entry
+                        Grid.Column="1"
+                        HorizontalOptions="FillAndExpand"
+                        Text="{Binding Password}" />
+                </Grid>
+                <Grid
+                    VerticalOptions="StartAndExpand"
+                    HorizontalOptions="StartAndExpand">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition
+                            Width="2*" />
+                        <ColumnDefinition
+                            Width="8*" />
+                    </Grid.ColumnDefinitions>
+                    <Label
+                        VerticalOptions="Center"
+                        VerticalTextAlignment="Center"
+                        Grid.Column="0"
+                        LineHeight=".6"
+                        Text="Repeat Password"
+                        FontFamily="{StaticResource Bold}" />
+                    <Entry
+                        Grid.Column="1"
+                        HorizontalOptions="FillAndExpand"
+                        Text="{Binding Password}" />
+                </Grid>
+                <materialframe:MaterialFrame
+                    x:Name="LoginButton"
+                    Padding="5"
+                    Elevation="5"
+                    HeightRequest="20"
+                    CornerRadius="18"
+                    HorizontalOptions="End"
+                    VerticalOptions="End"
+                    WidthRequest="20">
+                    <materialframe:MaterialFrame.GestureRecognizers>
+                        <TapGestureRecognizer
+                            Tapped="Register" />
+                    </materialframe:MaterialFrame.GestureRecognizers>
+                    <Image
+                        Rotation="180"
+                        Source="arrow-left.png" />
+                </materialframe:MaterialFrame>
+            </StackLayout>
+        </materialframe:MaterialFrame>
+        <materialframe:MaterialFrame
+            Padding="10,5"
+            HorizontalOptions="Center"
+            VerticalOptions="End">
+            <Label
+                        Margin="0,0"
+                        FontSize="Subtitle"
+                        VerticalOptions="Center"
+                        FontFamily="{StaticResource Bold}"
+                        Text="Already Have an Account?"
+                        HorizontalOptions="Center" />
+
+           
+            <materialframe:MaterialFrame.GestureRecognizers>
+                <TapGestureRecognizer
+                    Tapped="NavigateToLoginPage" />
+            </materialframe:MaterialFrame.GestureRecognizers>
+        </materialframe:MaterialFrame>
+
+    </StackLayout>
 </ContentPage>

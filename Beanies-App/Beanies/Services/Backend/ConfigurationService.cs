@@ -6,6 +6,6 @@ namespace Beanies.Services.Backend
 {
     class ConfigurationService : IConfigurationService
     {
-        public string BackendBaseUrl => "http://www.strathdeek.com";
+        public string BackendBaseUrl => "http://www.strathdeek.com:5000";
     }
 }
