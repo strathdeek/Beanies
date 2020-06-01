@@ -9,7 +9,7 @@ namespace Beanies.Models
         {
         }
 
-        [JsonProperty(propertyName: "id")]
+        [JsonProperty(propertyName: "_id")]
         public string Id { get; set; }
 
         [JsonProperty(PropertyName = "name")]
