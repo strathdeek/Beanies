@@ -12,7 +12,7 @@ namespace Beanies.ViewModels
 {
     class LoginViewModel : BaseViewModel
     {
-        IUserService userService => DependencyService.Resolve<IUserService>();
+        IUserBackendService userService => DependencyService.Resolve<IUserBackendService>();
 
         public LoginViewModel()
         {

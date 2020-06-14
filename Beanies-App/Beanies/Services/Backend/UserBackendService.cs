@@ -10,11 +10,9 @@ using Xamarin.Forms;
 
 namespace Beanies.Services.Backend
 {
-    class UserService : AbstractBackendService, IUserService
+    class UserBackendService : AbstractBackendService, IUserBackendService
     {
-        private ISessionService sessionService => DependencyService.Get<ISessionService>();
-        private IConfigurationService configurationService => DependencyService.Get<IConfigurationService>();
-        private string baseUrl => $"{configurationService.BackendBaseUrl}/users";
+        private string userUrl => $"{baseUrl}/users";
         public async Task<User> RegisterGuestAsync(string name)
         {
             Dictionary<string, string> body = new Dictionary<string, string>()
@@ -22,7 +20,7 @@ namespace Beanies.Services.Backend
                 {"name",name }
             };
 
-            string registerUrl = $"{baseUrl}/guest";
+            string registerUrl = $"{userUrl}/guest";
             var res = await PostAsync(registerUrl, body);
             if (!res.IsSuccessStatusCode)
             {
@@ -38,7 +36,7 @@ namespace Beanies.Services.Backend
 
         public async Task<User> GetSelfAsync()
         {
-            var res = await GetAsync(baseUrl, token: sessionService.Token);
+            var res = await GetAsync(userUrl, token: sessionService.Token);
             if (res.IsSuccessStatusCode)
             {
                 var content = await res.Content.ReadAsStringAsync();
@@ -54,7 +52,7 @@ namespace Beanies.Services.Backend
 
         public async Task<User> GetUserAsync(string id)
         {
-            string userUrl = $"{baseUrl}/{id}";
+            string userUrl = $"{this.userUrl}/{id}";
             var res = await GetAsync(userUrl, token: sessionService.Token);
             if (res.IsSuccessStatusCode)
             {
@@ -77,7 +75,7 @@ namespace Beanies.Services.Backend
                 {"password",password }
             };
 
-            string loginUrl = $"{baseUrl}/login";
+            string loginUrl = $"{userUrl}/login";
             var res = await PostAsync(loginUrl,body);
             if (!res.IsSuccessStatusCode)
             {
@@ -103,7 +101,7 @@ namespace Beanies.Services.Backend
                 {"name",name }
             };
 
-            string registerUrl = $"{baseUrl}/register";
+            string registerUrl = $"{userUrl}/register";
             var res = await PostAsync(registerUrl, body);
             if (!res.IsSuccessStatusCode)
             {
@@ -128,7 +126,7 @@ namespace Beanies.Services.Backend
                 {"name",name }
             };
 
-            string registerUrl = $"{baseUrl}/register/{id}";
+            string registerUrl = $"{userUrl}/register/{id}";
             var res = await PostAsync(registerUrl, body);
             if (!res.IsSuccessStatusCode)
             {
@@ -161,7 +159,7 @@ namespace Beanies.Services.Backend
                 body.Add("password", password);
             }
 
-            var res = await PutAsync(baseUrl, body, token: sessionService.Token);
+            var res = await PutAsync(userUrl, body, token: sessionService.Token);
             if (!res.IsSuccessStatusCode)
             {
                 return false;
@@ -177,7 +175,7 @@ namespace Beanies.Services.Backend
 
         public async Task<bool> UpdateGuestAsync(string id, string name = "")
         {
-            string userUrl = $"{baseUrl}/{id}";
+            string userUrl = $"{this.userUrl}/{id}";
             Dictionary<string, string> body = new Dictionary<string, string>();
             body.Add("name", name);
 
@@ -202,7 +200,7 @@ namespace Beanies.Services.Backend
 
         public async Task<bool> DeleteUserAsync(string id)
         {
-            string userUrl = $"{baseUrl}/{id}";
+            string userUrl = $"{this.userUrl}/{id}";
 
             var res = await DeleteAsync(userUrl, token: sessionService.Token);
             return res.IsSuccessStatusCode;

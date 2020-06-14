@@ -5,6 +5,8 @@ using Beanies.Services;
 using Beanies.Views;
 using Beanies.Services.Backend.Interfaces;
 using Beanies.Services.Backend;
+using Beanies.Models;
+using Beanies.Services.Datastore;
 
 namespace Beanies
 {
@@ -15,11 +17,13 @@ namespace Beanies
         {
             InitializeComponent();
 
-            DependencyService.Register<MockUserDataStore>();
-            DependencyService.Register<MockGameDataStore>();
             DependencyService.Register<IConfigurationService, ConfigurationService>();
             DependencyService.Register<ISessionService, SessionService>();
-            DependencyService.Register<IUserService, UserService>();
+            DependencyService.Register<IUserBackendService, UserBackendService>();
+            DependencyService.Register<IGameBackendService, GameBackendService>();
+            DependencyService.Register<IDataStore<User>, PlayerDataStore>();
+            DependencyService.Register<IDataStore<Game>, GameDataStore>();
+
             MainPage = new NavigationPage(new LoginPage());
         }
 
