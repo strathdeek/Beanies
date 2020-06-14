@@ -12,25 +12,20 @@ namespace Beanies.Models
 
         }
 
-        [JsonProperty(PropertyName = "id")]
+        [JsonProperty(PropertyName = "_id")]
         public string Id;
 
         [JsonProperty(PropertyName = "name")]
         public string Name { get; set; }
 
         [JsonProperty(PropertyName = "players")]
-        public List<User> Players { get; set; }
+        public List<string> Players { get; set; }
 
         [JsonProperty(PropertyName = "scores")]
-        public Dictionary<User, int[]> Scores { get; set; }
+        public Dictionary<string, int[]> Scores { get; set; }
 
-        [JsonIgnore]
-        public int Rounds { 
-            get
-            {
-                return 5;
-            }
+        [JsonProperty(PropertyName = "date")]
+        public DateTime CreatedDate { get; set; }
 
-        }
     }
 }

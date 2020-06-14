@@ -18,7 +18,7 @@ namespace Beanies.ViewModels
             set { showErrorMessage = value; OnPropertyChanged(nameof(ShowErrorMessage)); }
         }
 
-        IUserService userService => DependencyService.Resolve<IUserService>();
+        IUserBackendService userService => DependencyService.Resolve<IUserBackendService>();
 
         private string name;
 

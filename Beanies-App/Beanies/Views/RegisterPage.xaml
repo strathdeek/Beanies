@@ -30,7 +30,7 @@
             HorizontalOptions="StartAndExpand" />
         <materialframe:MaterialFrame
             VerticalOptions="CenterAndExpand"
-            Margin="20">
+            >
             <StackLayout>
                 <Label
                     Text="NEW USER"
@@ -42,14 +42,14 @@
                         <ColumnDefinition
                             Width="2*" />
                         <ColumnDefinition
-                            Width="8*" />
+                            Width="5*" />
                     </Grid.ColumnDefinitions>
                     <Label
                         VerticalOptions="Center"
                         VerticalTextAlignment="Center"
                         Grid.Column="0"
                         Text="Email"
-                        FontFamily="{StaticResource Bold}" />
+                        FontFamily="{StaticResource Regular}" />
                     <Entry
                         Grid.Column="1"
                         HorizontalOptions="FillAndExpand"
@@ -62,14 +62,14 @@
                         <ColumnDefinition
                             Width="2*" />
                         <ColumnDefinition
-                            Width="8*" />
+                            Width="5*" />
                     </Grid.ColumnDefinitions>
                     <Label
                         VerticalOptions="Center"
                         VerticalTextAlignment="Center"
                         Grid.Column="0"
                         Text="Name"
-                        FontFamily="{StaticResource Bold}" />
+                        FontFamily="{StaticResource Regular}" />
                     <Entry
                         Grid.Column="1"
                         HorizontalOptions="FillAndExpand"
@@ -82,14 +82,14 @@
                         <ColumnDefinition
                             Width="2*" />
                         <ColumnDefinition
-                            Width="8*" />
+                            Width="5*" />
                     </Grid.ColumnDefinitions>
                     <Label
                         VerticalOptions="Center"
                         VerticalTextAlignment="Center"
                         Grid.Column="0"
                         Text="Password"
-                        FontFamily="{StaticResource Bold}" />
+                        FontFamily="{StaticResource Regular}" />
                     <Entry
                         Grid.Column="1"
                         HorizontalOptions="FillAndExpand"
@@ -102,7 +102,7 @@
                         <ColumnDefinition
                             Width="2*" />
                         <ColumnDefinition
-                            Width="8*" />
+                            Width="5*" />
                     </Grid.ColumnDefinitions>
                     <Label
                         VerticalOptions="Center"
@@ -110,11 +110,11 @@
                         Grid.Column="0"
                         LineHeight=".6"
                         Text="Repeat Password"
-                        FontFamily="{StaticResource Bold}" />
+                        FontFamily="{StaticResource Regular}" />
                     <Entry
                         Grid.Column="1"
                         HorizontalOptions="FillAndExpand"
-                        Text="{Binding Password}" />
+                        Text="{Binding Password2}" />
                 </Grid>
                 <materialframe:MaterialFrame
                     x:Name="LoginButton"

@@ -12,6 +12,9 @@ namespace Beanies.Services.Backend.Interfaces
 {
     abstract class AbstractBackendService
     {
+        protected ISessionService sessionService => DependencyService.Get<ISessionService>();
+        protected IConfigurationService configurationService => DependencyService.Get<IConfigurationService>();
+        protected string baseUrl => configurationService.BackendBaseUrl;
         internal async Task<HttpResponseMessage> PostAsync(string url, object requestBody, string token = "")
         {
             string body = JsonConvert.SerializeObject(requestBody);

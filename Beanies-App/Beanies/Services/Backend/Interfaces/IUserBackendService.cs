@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Beanies.Services.Backend.Interfaces
 {
-    interface IUserService
+    interface IUserBackendService
     {
         Task<bool> LoginAsync(string email, string password);
 

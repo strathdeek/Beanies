@@ -18,7 +18,7 @@
                    FontFamily="{StaticResource Bold}"
                 VerticalOptions="Start" 
                 HorizontalOptions="StartAndExpand" />
-            <materialframe:MaterialFrame VerticalOptions="CenterAndExpand" Margin="20">
+            <materialframe:MaterialFrame VerticalOptions="CenterAndExpand">
                 <StackLayout>
                     <Label
                         Text="SIGN IN"
@@ -30,7 +30,7 @@
                             <ColumnDefinition
                                 Width="2*" />
                             <ColumnDefinition
-                                Width="8*" />
+                                Width="5*" />
                         </Grid.ColumnDefinitions>
                         <Label
                             VerticalOptions="Center"
@@ -48,7 +48,7 @@
                             <ColumnDefinition
                                 Width="2*" />
                             <ColumnDefinition
-                                Width="8*" />
+                                Width="5*" />
                         </Grid.ColumnDefinitions>
                         <Label
                             VerticalOptions="Center"
