@@ -60,6 +60,7 @@
                     <Entry
                         Grid.Column="1"
                         HorizontalOptions="FillAndExpand"
+                        IsSpellCheckEnabled="False"
                         Text="{Binding Email}" />
                 </Grid>
                 <Grid HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand">
@@ -76,6 +77,8 @@
                     <Entry
                         Grid.Column="1"
                         HorizontalOptions="FillAndExpand"
+                        IsSpellCheckEnabled="False"
+                        IsTextPredictionEnabled="False"
                         Text="{Binding Name}" />
                 </Grid>
                 <Grid HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand">
@@ -92,6 +95,7 @@
                     <Entry
                         Grid.Column="1"
                         HorizontalOptions="FillAndExpand"
+                        IsPassword="True"
                         Text="{Binding Password}" />
                 </Grid>
                 <Grid HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand">
@@ -108,6 +112,7 @@
                     <Entry
                         Grid.Column="1"
                         HorizontalOptions="FillAndExpand"
+                        IsPassword="True"
                         Text="{Binding Password2}"
                         VerticalOptions="Center" />
                 </Grid>
