@@ -4,6 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Beanies.Models;
 using Beanies.Services;
+using Beanies.Services.Backend.Interfaces;
+using Beanies.Styles;
+using Beanies.ViewItems;
 using Xamarin.Forms;
 
 namespace Beanies.ViewModels
@@ -12,27 +15,13 @@ namespace Beanies.ViewModels
     {
         public IDataStore<User> PlayerDataStore => DependencyService.Get<IDataStore<User>>();
         public IDataStore<Game> GameDataStore => DependencyService.Get<IDataStore<Game>>();
+        private ISessionService sessionService => DependencyService.Get<ISessionService>();
+
         public Command<object> OnPlayerSelectionChanged;
 
         public NewGameViewModel()
         {
-            OnPlayerSelectionChanged = new Command<object>(PlayerSelectionChanged);
-            NumberOfRounds = 13;
             FetchPlayers();
-        }
-
-        private int numberOfRounds;
-        public int NumberOfRounds
-        {
-            get
-            {
-                return numberOfRounds;
-            }
-            set
-            {
-                numberOfRounds = value;
-                OnPropertyChanged(nameof(NumberOfRounds));
-            }
         }
 
         private string name;
@@ -46,8 +35,8 @@ namespace Beanies.ViewModels
             }
         }
 
-        private List<User> players;
-        public List<User> Players
+        private List<PlayerViewItem> players;
+        public List<PlayerViewItem> Players
         {
             get
             {
@@ -71,9 +60,18 @@ namespace Beanies.ViewModels
             }
         }
 
+        public string CloseIcon => IconFont.Close;
+
         public async void FetchPlayers()
         {
-            Players = (await PlayerDataStore.GetAllAsync()).ToList();
+            var users = (await PlayerDataStore.GetAllAsync()).ToList();
+            users.Insert(0, sessionService.Self);
+            Players = users.Select(x => new PlayerViewItem(x)
+            {
+                Selected = sessionService.Self.Id == x.Id,
+                SelectedCommand = new Command<string>(SelectPlayer)
+            }).ToList();
+            SelectedPlayers = new List<User>() { sessionService.Self};
         }
 
         public async Task<bool> AddGameAsync()
@@ -84,14 +82,18 @@ namespace Beanies.ViewModels
             }
             else
             {
-                var game = new Game();
+                var game = new Game()
+                {
+                    Name = Name,
+                    Players = selectedPlayers.Select(x => x.Id).ToList()
+                };
                 return await GameDataStore.AddAsync(game);
             }
         }
 
         private bool CanCreateGame()
         {
-            return (!string.IsNullOrEmpty(Title) &&
+            return (!string.IsNullOrEmpty(Name) &&
                !(SelectedPlayers?.Count < 2));
         }
 
@@ -100,5 +102,21 @@ namespace Beanies.ViewModels
             if (newSelection is IEnumerable<User> players)
                 SelectedPlayers = players.ToList();
         }
+
+        private async void SelectPlayer(string id)
+        {
+            Players.FirstOrDefault(x => x.Id == id).ToggleSelected();
+            var user = await PlayerDataStore.GetAsync(id);
+            if (!selectedPlayers.Any(x => x.Id == id))
+            {
+                selectedPlayers.Add(user);
+            }
+            else
+            {
+                selectedPlayers.Remove(user);
+            }
+            Players = Players.ToList();
+        }
+
     }
 }

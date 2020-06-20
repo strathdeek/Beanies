@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentView
+    x:Class="Beanies.Views.ContentViews.PlayerCardView"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:renderedviews="clr-namespace:Sharpnado.MaterialFrame;assembly=Sharpnado.MaterialFrame">
+    <ContentView.Content>
+        <renderedviews:MaterialFrame Padding="10,0">
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer Command="{Binding SelectedCommand}" CommandParameter="{Binding Id}" />
+            </Frame.GestureRecognizers>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Label
+                    Grid.Column="0"
+                    Margin="10,0,10,0"
+                    FontFamily="{StaticResource SemiBold}"
+                    FontSize="Large"
+                    HorizontalOptions="Start"
+                    Text="{Binding Name}"
+                    VerticalOptions="Center" />
+                <renderedviews:MaterialFrame
+                    x:Name="BackButton"
+                    Grid.Column="1"
+                    Padding="5"
+                    CornerRadius="25"
+                    HeightRequest="40"
+                    HorizontalOptions="End"
+                    LightThemeBackgroundColor="White"
+                    VerticalOptions="Center"
+                    WidthRequest="40">
+                    <Image>
+                        <Image.Source>
+                            <FontImageSource
+                                FontFamily="{DynamicResource MaterialFontFamily}"
+                                Glyph="{Binding Icon}"
+                                Size="24" />
+                        </Image.Source>
+                    </Image>
+                </renderedviews:MaterialFrame>
+            </Grid>
+        </renderedviews:MaterialFrame>
+    </ContentView.Content>
+</ContentView>
