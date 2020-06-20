@@ -8,9 +8,9 @@
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
     <PackageReference Include="System.ComponentModel.Annotations" Version="4.7.0" />
-    <PackageReference Include="Xamarin.Forms" Version="4.6.0.800" />  
+    <PackageReference Include="Xamarin.Forms" Version="4.7.0.968" />  
     <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />
-    <PackageReference Include="Xamarin.Forms.Visual.Material" Version="4.6.0.800" />
+    <PackageReference Include="Xamarin.Forms.Visual.Material" Version="4.7.0.968" />
     <PackageReference Include="Resizetizer.NT" Version="0.1.0" />
     <PackageReference Include="Sharpnado.Presentation.Forms" Version="1.6.0" />
     <PackageReference Include="Xamarin.Forms.PancakeView" Version="1.4.2" />
@@ -20,6 +20,8 @@
     <Folder Include="Resources\Icons\" />
     <Folder Include="Converters\" />
     <Folder Include="Styles\" />
+    <Folder Include="Views\ContentViews\" />
+    <Folder Include="ViewItems\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Images\Icons\account-plus.svg" />

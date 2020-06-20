@@ -3,6 +3,7 @@
     x:Class="Beanies.Views.NewGamePage"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:contentviews="clr-namespace:Beanies.Views.ContentViews"
     xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
     xmlns:renderedviews="clr-namespace:Sharpnado.MaterialFrame;assembly=Sharpnado.MaterialFrame"
     xmlns:viewmodels="clr-namespace:Beanies.ViewModels"
@@ -11,184 +12,75 @@
     <ContentPage.BindingContext>
         <viewmodels:NewGameViewModel />
     </ContentPage.BindingContext>
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Label">
+                <Setter Property="TextColor" Value="{StaticResource PrimaryBlue}" />
+                <Setter Property="FontFamily" Value="{StaticResource Regular}" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
     <ContentPage.Content>
-        <StackLayout Margin="0,20,0,20">
+        <StackLayout Padding="10,0">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto" />
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
                     <ColumnDefinition Width="*" />
                 </Grid.ColumnDefinitions>
                 <renderedviews:MaterialFrame
                     x:Name="BackButton"
                     Grid.Column="0"
                     Padding="5"
-                    CornerRadius="18"
-                    HeightRequest="20"
+                    CornerRadius="20"
+                    HeightRequest="30"
                     HorizontalOptions="Start"
                     VerticalOptions="Start"
-                    WidthRequest="20">
+                    WidthRequest="30">
                     <renderedviews:MaterialFrame.GestureRecognizers>
                         <TapGestureRecognizer Tapped="GoBack" />
                     </renderedviews:MaterialFrame.GestureRecognizers>
-                    <Image Source="arrow-left.png" />
+                    <Image>
+                        <Image.Source>
+                            <FontImageSource
+                                FontFamily="{DynamicResource MaterialFontFamily}"
+                                Glyph="{Binding CloseIcon}"
+                                Size="44" />
+                        </Image.Source>
+                    </Image>
                 </renderedviews:MaterialFrame>
-
                 <Label
                     Grid.Column="1"
                     FontFamily="{StaticResource Bold}"
                     FontSize="Title"
-                    HorizontalOptions="Center"
+                    HorizontalOptions="CenterAndExpand"
                     Text="NEW GAME" />
-
             </Grid>
-            <renderedviews:MaterialFrame>
-                <StackLayout>
-                    <StackLayout Orientation="Horizontal">
-                        <Label Text="Title: " />
-                        <Entry HorizontalOptions="FillAndExpand" Text="{Binding Name}" />
-                    </StackLayout>
-                    <StackLayout Orientation="Horizontal">
-                        <Label Text="Rounds: " />
-                        <Picker SelectedItem="{Binding NumberOfRounds}">
-                            <Picker.ItemsSource>
-                                <Array Type="{x:Type x:Int32}">
-                                    <x:Int32>1</x:Int32>
-                                    <x:Int32>2</x:Int32>
-                                    <x:Int32>3</x:Int32>
-                                    <x:Int32>4</x:Int32>
-                                    <x:Int32>5</x:Int32>
-                                    <x:Int32>6</x:Int32>
-                                    <x:Int32>7</x:Int32>
-                                    <x:Int32>8</x:Int32>
-                                    <x:Int32>9</x:Int32>
-                                    <x:Int32>10</x:Int32>
-                                    <x:Int32>11</x:Int32>
-                                    <x:Int32>12</x:Int32>
-                                    <x:Int32>13</x:Int32>
-                                </Array>
-                            </Picker.ItemsSource>
-                        </Picker>
-                    </StackLayout>
 
-                </StackLayout>
-            </renderedviews:MaterialFrame>
             <CollectionView
                 x:Name="PlayerCollection"
                 ItemsSource="{Binding Players}"
-                SelectionChangedCommand="{Binding OnPlayerSelectionChanged}"
-                SelectionChangedCommandParameter="{Binding SelectedItems, Source={x:Reference PlayerCollection}}"
-                SelectionMode="Multiple"
+                SelectionMode="None"
                 VerticalScrollBarVisibility="Never">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <ContentView Margin="10">
-                            <renderedviews:MaterialFrame Padding="0">
-                                <Grid>
-                                    <Grid.RowDefinitions>
-                                        <RowDefinition Height="*" />
-                                        <RowDefinition Height="*" />
-                                    </Grid.RowDefinitions>
-                                    <Grid.ColumnDefinitions>
-                                        <ColumnDefinition Width="*" />
-                                        <ColumnDefinition Width="*" />
-                                    </Grid.ColumnDefinitions>
-                                    <Label
-                                        Grid.Row="0"
-                                        Grid.Column="0"
-                                        Margin="10,0,10,0"
-                                        FontFamily="{StaticResource SemiBold}"
-                                        FontSize="Large"
-                                        HorizontalOptions="Start"
-                                        Text="{Binding Name}"
-                                        VerticalOptions="Center" />
-
-                                    <StackLayout
-                                        Grid.Row="0"
-                                        Grid.Column="1"
-                                        Margin="10,0,0,0"
-                                        HorizontalOptions="StartAndExpand"
-                                        Orientation="Horizontal">
-                                        <Label
-                                            FontFamily="{StaticResource Medium}"
-                                            Text="Games Played "
-                                            VerticalOptions="Center" />
-                                        <Frame
-                                            Padding="0"
-                                            CornerRadius="15"
-                                            HasShadow="False"
-                                            HeightRequest="30"
-                                            HorizontalOptions="End"
-                                            VerticalOptions="Center"
-                                            WidthRequest="30">
-                                            <Label
-                                                FontSize="Small"
-                                                HorizontalOptions="Center"
-                                                Text="Binding GamesPlayed"
-                                                VerticalOptions="Center" />
-                                        </Frame>
-                                    </StackLayout>
-
-                                    <StackLayout
-                                        Grid.Row="1"
-                                        Grid.Column="1"
-                                        HorizontalOptions="Center"
-                                        Orientation="Horizontal">
-                                        <Label
-                                            FontFamily="{StaticResource Medium}"
-                                            Text="Wins"
-                                            VerticalOptions="Center" />
-                                        <Frame
-                                            Padding="0"
-                                            CornerRadius="15"
-                                            HasShadow="False"
-                                            HeightRequest="30"
-                                            HorizontalOptions="End"
-                                            VerticalOptions="Center"
-                                            WidthRequest="30">
-                                            <Label
-                                                FontSize="Small"
-                                                HorizontalOptions="Center"
-                                                Text="Binding GamesPlayed"
-                                                VerticalOptions="Center" />
-                                        </Frame>
-
-                                    </StackLayout>
-
-                                    <StackLayout
-                                        Grid.Row="1"
-                                        Grid.Column="0"
-                                        HorizontalOptions="Center"
-                                        Orientation="Horizontal">
-                                        <Label
-                                            FontFamily="{StaticResource Medium}"
-                                            Text="Win Rate"
-                                            VerticalOptions="Center" />
-                                        <Frame
-                                            Padding="0"
-                                            CornerRadius="15"
-                                            HasShadow="False"
-                                            HeightRequest="30"
-                                            HorizontalOptions="End"
-                                            VerticalOptions="Center"
-                                            WidthRequest="30">
-                                            <Label
-                                                FontSize="Small"
-                                                HorizontalOptions="Center"
-                                                Text="Winrate'{0:#.00}'}"
-                                                VerticalOptions="Center" />
-                                        </Frame>
-                                    </StackLayout>
-                                </Grid>
-                            </renderedviews:MaterialFrame>
+                            <contentviews:PlayerCardView />
                         </ContentView>
-
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>
+            <Grid Margin="0,0,0,20" ColumnDefinitions="Auto,*">
+                <Label
+                    Grid.Column="0"
+                    FontFamily="{StaticResource Bold}"
+                    FontSize="Subtitle"
+                    Text="Game Name: " />
+                <Entry Grid.Column="1" Text="{Binding Name}" />
+            </Grid>
             <renderedviews:MaterialFrame Padding="10" Elevation="4">
                 <Label
                     FontFamily="{StaticResource Bold}"

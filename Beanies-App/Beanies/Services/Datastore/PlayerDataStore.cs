@@ -12,6 +12,8 @@ namespace Beanies.Services.Datastore
     class PlayerDataStore : IDataStore<User>
     {
         IUserBackendService UserBackendService => DependencyService.Resolve<IUserBackendService>();
+        ISessionService sessionService => DependencyService.Resolve<ISessionService>();
+
         List<User> Users = new List<User>();
         public async Task<bool> AddAsync(User item)
         {
