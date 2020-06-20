@@ -3,6 +3,7 @@ using System.Collections.ObjectModel;
 using System.Threading.Tasks;
 using Beanies.Models;
 using Beanies.Services;
+using Beanies.Styles;
 using Xamarin.Forms;
 
 namespace Beanies.ViewModels
@@ -26,5 +27,8 @@ namespace Beanies.ViewModels
                 Games.Add(game);
             }
         }
+
+        public string PlayIcon => IconFont.Cards;
+        public string PlayersIcon => IconFont.AccountMultiple;
     }
 }

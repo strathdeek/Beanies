@@ -66,12 +66,12 @@
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>
-            <Grid>
+            <Grid HeightRequest="120">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*" />
                     <ColumnDefinition Width="*" />
                 </Grid.ColumnDefinitions>
-                <renderedviews:MaterialFrame x:Name="StartGameButton" Padding="5">
+                <renderedviews:MaterialFrame x:Name="StartGameButton">
                     <renderedviews:MaterialFrame.GestureRecognizers>
                         <TapGestureRecognizer Tapped="StartGame_Tapped" />
                     </renderedviews:MaterialFrame.GestureRecognizers>
@@ -80,13 +80,20 @@
                             <ColumnDefinition Width="Auto" />
                             <ColumnDefinition Width="*" />
                         </Grid.ColumnDefinitions>
-                        <Image Source="cards.png" />
+                        <Image>
+                            <Image.Source>
+                                <FontImageSource
+                                    FontFamily="{DynamicResource MaterialFontFamily}"
+                                    Glyph="{Binding PlayIcon}"
+                                    Size="44" />
+                            </Image.Source>
+                        </Image>
                         <Label
                             Grid.Column="1"
                             FontFamily="{StaticResource Bold}"
-                            FontSize="Subtitle"
+                            FontSize="Medium"
                             HorizontalOptions="Center"
-                            Text="START GAME"
+                            Text="NEW GAME"
                             VerticalOptions="Center" />
                     </Grid>
                 </renderedviews:MaterialFrame>
@@ -99,7 +106,14 @@
                             <ColumnDefinition Width="Auto" />
                             <ColumnDefinition Width="*" />
                         </Grid.ColumnDefinitions>
-                        <Image Source="account-multiple.png" />
+                        <Image>
+                            <Image.Source>
+                                <FontImageSource
+                                    FontFamily="{DynamicResource MaterialFontFamily}"
+                                    Glyph="{Binding PlayersIcon}"
+                                    Size="44" />
+                            </Image.Source>
+                        </Image>
                         <Label
                             Grid.Column="1"
                             FontFamily="{StaticResource Bold}"

@@ -1,4 +1,5 @@
 ﻿using Beanies.Services.Backend.Interfaces;
+using Beanies.Styles;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -52,6 +53,9 @@ namespace Beanies.ViewModels
             get { return password2; }
             set { password2 = value; OnPropertyChanged(nameof(Password2)); }
         }
+
+        public string LoginIcon => IconFont.ArrowRight;
+
 
         public async Task<bool> Register()
         {

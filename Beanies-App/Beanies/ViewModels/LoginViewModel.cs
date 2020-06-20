@@ -1,5 +1,6 @@
 ﻿using Beanies.Services.Backend;
 using Beanies.Services.Backend.Interfaces;
+using Beanies.Styles;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -39,6 +40,8 @@ namespace Beanies.ViewModels
                 OnPropertyChanged(nameof(Email));
             }
         }
+
+        public string LoginIcon => IconFont.ArrowRight;
 
         public async Task<bool> LoginAsync()
         {
