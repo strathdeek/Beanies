@@ -1,9 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
 <?xaml-comp compile="true" ?>
 <ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
-    <Color x:Key="AcrylicFrameBackgroundColor">#F1F1F1</Color>
-    <Color x:Key="PrimaryDark">#5C946E</Color>
-    <Color x:Key="PrimaryLight">#79A788</Color>
-    <Color x:Key="BackgroundLight">#e5e5e5</Color>
-    <Color x:Key="BackgroundDark">#FFF4EC</Color>
+    <Color x:Key="AcrylicFrameBackgroundColor">#e9c46a</Color>
+    <Color x:Key="AcrylicFrameAccentColor">#F4E3B8</Color>
+    <Color x:Key="PrimaryAccent">#E4BA4E</Color>
+    <Color x:Key="Primary">#D5A220</Color>
+    <Color x:Key="PrimaryBlue">#264653</Color>
+    <Color x:Key="BackgroundLight">#F9F1DC</Color>
 </ResourceDictionary>

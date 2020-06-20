@@ -31,7 +31,7 @@ namespace Beanies.Views
 
         private async void NavigateToRegistrationPage(object s, EventArgs e)
         {
-            await Navigation.PushAsync(new RegisterPage());
+            await Navigation.PushModalAsync(new RegisterPage());
         }
     }
 }

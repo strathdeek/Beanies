@@ -3,17 +3,18 @@
     x:Class="Beanies.Views.PlayersListPage"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
     xmlns:pancakeview="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
-    xmlns:viewmodels="clr-namespace:Beanies.ViewModels" 
     xmlns:renderedviews="clr-namespace:Sharpnado.MaterialFrame;assembly=Sharpnado.MaterialFrame"
+    xmlns:viewmodels="clr-namespace:Beanies.ViewModels"
     x:Name="root"
-    BackgroundColor="{StaticResource BackgroundLight}"
-    NavigationPage.HasNavigationBar="False">
+    ios:Page.UseSafeArea="true"
+    Style="{StaticResource ContentPageDefault}">
     <ContentPage.BindingContext>
         <viewmodels:PlayersListViewModel />
     </ContentPage.BindingContext>
     <ContentPage.Content>
-        <Grid Margin="0,20,0,0">
+        <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto" />
                 <RowDefinition Height="*" />
@@ -29,7 +30,10 @@
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <ContentView Margin="10">
-                            <renderedviews:MaterialFrame Elevation="4" Margin="20" Padding="0">
+                            <renderedviews:MaterialFrame
+                                Margin="20"
+                                Padding="0"
+                                Elevation="4">
                                 <Grid>
                                     <Grid.RowDefinitions>
                                         <RowDefinition Height="*" />
@@ -184,15 +188,15 @@
                     BackgroundGradientStartColor="{StaticResource BackgroundLight}" />
                 <renderedviews:MaterialFrame
                     x:Name="BackButton"
-                    HeightRequest="20"
                     Padding="5"
                     CornerRadius="18"
+                    HeightRequest="20"
                     HorizontalOptions="Start"
                     VerticalOptions="Start"
-                    WidthRequest="20" >
-                    <Image Source="close.png"/>
+                    WidthRequest="20">
+                    <Image Source="close.png" />
                     <renderedviews:MaterialFrame.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="Close"/>
+                        <TapGestureRecognizer Tapped="Close" />
                     </renderedviews:MaterialFrame.GestureRecognizers>
                 </renderedviews:MaterialFrame>
                 <Label

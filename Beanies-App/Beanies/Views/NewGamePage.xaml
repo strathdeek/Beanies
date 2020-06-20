@@ -3,17 +3,19 @@
     x:Class="Beanies.Views.NewGamePage"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:viewmodels="clr-namespace:Beanies.ViewModels" xmlns:renderedviews="clr-namespace:Sharpnado.MaterialFrame;assembly=Sharpnado.MaterialFrame"
+    xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+    xmlns:renderedviews="clr-namespace:Sharpnado.MaterialFrame;assembly=Sharpnado.MaterialFrame"
+    xmlns:viewmodels="clr-namespace:Beanies.ViewModels"
+    ios:Page.UseSafeArea="true"
     Style="{StaticResource ContentPageDefault}">
     <ContentPage.BindingContext>
         <viewmodels:NewGameViewModel />
     </ContentPage.BindingContext>
     <ContentPage.Content>
-        <StackLayout Margin="0,20,0,20" >
+        <StackLayout Margin="0,20,0,20">
             <Grid>
                 <Grid.RowDefinitions>
-                    <RowDefinition
-                        Height="Auto" />
+                    <RowDefinition Height="Auto" />
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*" />
@@ -24,22 +26,21 @@
                     x:Name="BackButton"
                     Grid.Column="0"
                     Padding="5"
-                    HeightRequest="20"
                     CornerRadius="18"
+                    HeightRequest="20"
                     HorizontalOptions="Start"
                     VerticalOptions="Start"
                     WidthRequest="20">
                     <renderedviews:MaterialFrame.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="GoBack"/>
+                        <TapGestureRecognizer Tapped="GoBack" />
                     </renderedviews:MaterialFrame.GestureRecognizers>
-                    <Image
-                    Source="arrow-left.png" />
+                    <Image Source="arrow-left.png" />
                 </renderedviews:MaterialFrame>
-                
+
                 <Label
                     Grid.Column="1"
-                    FontSize="Title"
                     FontFamily="{StaticResource Bold}"
+                    FontSize="Title"
                     HorizontalOptions="Center"
                     Text="NEW GAME" />
 

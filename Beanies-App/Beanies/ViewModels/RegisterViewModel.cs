@@ -64,11 +64,20 @@ namespace Beanies.ViewModels
 
         private bool ValidateFields()
         {
-            ShowErrorMessage = (!string.IsNullOrEmpty(Name) &&
-                    !string.IsNullOrEmpty(Email) &&
-                    new EmailAddressAttribute().IsValid(Email) &&
-                    !string.IsNullOrEmpty(Password) &&
-                    Password.Equals(Password2));
+            var nameValid = !string.IsNullOrEmpty(Name);
+            var emailEntered = !string.IsNullOrEmpty(Email);
+            var emailValid = new EmailAddressAttribute().IsValid(Email);
+            var passwordEntered = !string.IsNullOrEmpty(Password);
+            var password2Entered = !string.IsNullOrEmpty(password2);
+            var passwordsMatch = password == password2;
+
+            ShowErrorMessage = !(nameValid &&
+                               emailEntered &&
+                               emailValid &&
+                               passwordEntered &&
+                               password2Entered &&
+                               passwordsMatch);
+
             return !ShowErrorMessage;
         }
     }

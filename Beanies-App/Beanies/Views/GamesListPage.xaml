@@ -3,9 +3,11 @@
     x:Class="Beanies.Views.GamesListPage"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:viewmodels="clr-namespace:Beanies.ViewModels" xmlns:renderedviews="clr-namespace:Sharpnado.MaterialFrame;assembly=Sharpnado.MaterialFrame"
+    xmlns:renderedviews="clr-namespace:Sharpnado.MaterialFrame;assembly=Sharpnado.MaterialFrame"
+    xmlns:viewmodels="clr-namespace:Beanies.ViewModels"
     BackgroundColor="{StaticResource BackgroundLight}"
-    NavigationPage.HasNavigationBar="False">
+    NavigationPage.HasNavigationBar="False"
+    Style="{StaticResource ContentPageDefault}">
     <ContentPage.BindingContext>
         <viewmodels:GamesListViewModel />
     </ContentPage.BindingContext>
@@ -82,8 +84,8 @@
                             FontFamily="{StaticResource Bold}"
                             FontSize="Subtitle"
                             HorizontalOptions="Center"
-                            VerticalOptions="Center"
-                            Text="START GAME" />
+                            Text="START GAME"
+                            VerticalOptions="Center" />
                     </Grid>
                 </renderedviews:MaterialFrame>
                 <renderedviews:MaterialFrame Grid.Column="1" Padding="5">
@@ -100,10 +102,10 @@
                             Grid.Column="1"
                             FontFamily="{StaticResource Bold}"
                             FontSize="Subtitle"
-                            VerticalOptions="Center"
-                            VerticalTextAlignment="Center"
                             HorizontalOptions="Center"
-                            Text="PLAYERS" />
+                            Text="PLAYERS"
+                            VerticalOptions="Center"
+                            VerticalTextAlignment="Center" />
                     </Grid>
                 </renderedviews:MaterialFrame>
             </Grid>

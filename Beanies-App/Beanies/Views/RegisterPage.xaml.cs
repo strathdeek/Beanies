@@ -29,7 +29,7 @@ namespace Beanies.Views
 
         public async void NavigateToLoginPage(object sender, EventArgs e)
         {
-            Navigation.PopAsync();
+            Navigation.PopModalAsync();
         }
     }
 }

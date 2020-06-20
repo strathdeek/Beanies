@@ -1,61 +1,68 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:viewmodels="clr-namespace:Beanies.ViewModels"
+<ContentPage
+    x:Class="Beanies.Views.LoginPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
     xmlns:materialframe="clr-namespace:Sharpnado.MaterialFrame;assembly=Sharpnado.MaterialFrame"
-    mc:Ignorable="d"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:viewmodels="clr-namespace:Beanies.ViewModels"
+    ios:Page.UseSafeArea="true"
     Style="{StaticResource ContentPageDefault}"
-    x:Class="Beanies.Views.LoginPage">
+    mc:Ignorable="d">
     <ContentPage.BindingContext>
         <viewmodels:LoginViewModel />
     </ContentPage.BindingContext>
     <ContentPage.Content>
-        <StackLayout Padding="20,20" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
-            <Label Text="BEANIES"
-                   FontSize="Title"
-                   FontFamily="{StaticResource Bold}"
-                VerticalOptions="Start" 
-                HorizontalOptions="StartAndExpand" />
+        <StackLayout
+            Padding="20,0"
+            HorizontalOptions="FillAndExpand"
+            VerticalOptions="FillAndExpand">
+            <Label
+                FontFamily="{StaticResource Bold}"
+                FontSize="Title"
+                HorizontalOptions="StartAndExpand"
+                Text="BEANIES"
+                TextColor="{StaticResource PrimaryBlue}"
+                VerticalOptions="Start" />
             <materialframe:MaterialFrame VerticalOptions="CenterAndExpand">
                 <StackLayout>
                     <Label
-                        Text="SIGN IN"
-                        FontSize="Subtitle"
                         FontFamily="{StaticResource Bold}"
-                        HorizontalOptions="Center" />
+                        FontSize="Subtitle"
+                        HorizontalOptions="Center"
+                        Text="SIGN IN"
+                        TextColor="{StaticResource PrimaryBlue}" />
                     <Grid>
                         <Grid.ColumnDefinitions>
-                            <ColumnDefinition
-                                Width="2*" />
-                            <ColumnDefinition
-                                Width="5*" />
+                            <ColumnDefinition Width="2*" />
+                            <ColumnDefinition Width="5*" />
                         </Grid.ColumnDefinitions>
                         <Label
-                            VerticalOptions="Center"
-                            VerticalTextAlignment="Center"
                             Grid.Column="0"
+                            FontFamily="{StaticResource Regular}"
                             Text="Email"
-                            FontFamily="{StaticResource Regular}" />
+                            TextColor="{StaticResource PrimaryBlue}"
+                            VerticalOptions="Center"
+                            VerticalTextAlignment="Center" />
                         <Entry
                             Grid.Column="1"
                             HorizontalOptions="FillAndExpand"
                             Text="{Binding Email}" />
                     </Grid>
-                    <Grid VerticalOptions="StartAndExpand" HorizontalOptions="StartAndExpand">
+                    <Grid HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand">
                         <Grid.ColumnDefinitions>
-                            <ColumnDefinition
-                                Width="2*" />
-                            <ColumnDefinition
-                                Width="5*" />
+                            <ColumnDefinition Width="2*" />
+                            <ColumnDefinition Width="5*" />
                         </Grid.ColumnDefinitions>
                         <Label
-                            VerticalOptions="Center"
-                            VerticalTextAlignment="Center"
                             Grid.Column="0"
+                            FontFamily="{StaticResource Regular}"
                             Text="Password"
-                            FontFamily="{StaticResource Regular}" />
+                            TextColor="{StaticResource PrimaryBlue}"
+                            VerticalOptions="Center"
+                            VerticalTextAlignment="Center" />
                         <Entry
                             Grid.Column="1"
                             HorizontalOptions="FillAndExpand"
@@ -64,33 +71,35 @@
                     <materialframe:MaterialFrame
                         x:Name="LoginButton"
                         Padding="5"
-                        Elevation="5"
+                        CornerRadius="15"
+                        HasShadow="True"
                         HeightRequest="20"
-                        CornerRadius="18"
-                        HorizontalOptions="End"
-                        VerticalOptions="End"
+                        HorizontalOptions="EndAndExpand"
+                        Style="{StaticResource Button}"
+                        VerticalOptions="EndAndExpand"
                         WidthRequest="20">
-                        <materialframe:MaterialFrame.GestureRecognizers>
-                            <TapGestureRecognizer
-                                Tapped="Login" />
-                        </materialframe:MaterialFrame.GestureRecognizers>
-                        <Image
-                            Rotation="180"
-                            Source="arrow-left.png" />
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="Login" />
+                        </Frame.GestureRecognizers>
+                        <Image Rotation="180" Source="arrow-left.png" />
                     </materialframe:MaterialFrame>
                 </StackLayout>
             </materialframe:MaterialFrame>
-            <materialframe:MaterialFrame Padding="10,5" HorizontalOptions="Center" VerticalOptions="End">
+            <materialframe:MaterialFrame
+                Padding="10,5"
+                HorizontalOptions="Center"
+                Style="{StaticResource Button}"
+                VerticalOptions="End">
                 <Label
                     Margin="0,0"
-                    FontSize="Subtitle"
                     FontFamily="{StaticResource Bold}"
+                    FontSize="Subtitle"
+                    HorizontalOptions="Center"
                     Text="Create New Account"
-                    HorizontalOptions="Center" />
-                <materialframe:MaterialFrame.GestureRecognizers>
-                    <TapGestureRecognizer
-                        Tapped="NavigateToRegistrationPage" />
-                </materialframe:MaterialFrame.GestureRecognizers>
+                    TextColor="{StaticResource PrimaryBlue}" />
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="NavigateToRegistrationPage" />
+                </Frame.GestureRecognizers>
             </materialframe:MaterialFrame>
 
         </StackLayout>
