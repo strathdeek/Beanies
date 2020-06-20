@@ -84,7 +84,15 @@
                         <Frame.GestureRecognizers>
                             <TapGestureRecognizer Tapped="Login" />
                         </Frame.GestureRecognizers>
-                        <Image Rotation="180" Source="arrow-left.png" />
+                        <Image>
+                            <Image.Source>
+                                <FontImageSource
+                                    FontFamily="{DynamicResource MaterialFontFamily}"
+                                    Glyph="{Binding LoginIcon}"
+                                    Size="44"
+                                    Color="{StaticResource PrimaryBlue}" />
+                            </Image.Source>
+                        </Image>
                     </materialframe:MaterialFrame>
                 </StackLayout>
             </materialframe:MaterialFrame>

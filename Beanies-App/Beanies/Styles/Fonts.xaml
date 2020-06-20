@@ -22,6 +22,10 @@
         <On Platform="Android" Value="BalooPaaji2-Regular.ttf#Baloo Paaji 2" />
         <On Platform="iOS" Value="BalooPaaji2-Regular" />
     </OnPlatform>
-
+    <OnPlatform x:Key="MaterialFontFamily" x:TypeArguments="x:String">
+        <On Platform="iOS" Value="Material Design Icons" />
+        <On Platform="Android" Value="materialdesignicons-webfont.ttf#Material Design Icons" />
+        <On Platform="UWP" Value="Assets/Fonts/materialdesignicons-webfont.ttf#Material Design Icons" />
+    </OnPlatform>
 
 </ResourceDictionary>

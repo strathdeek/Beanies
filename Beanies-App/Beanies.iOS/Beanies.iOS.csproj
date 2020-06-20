@@ -127,6 +127,7 @@
     <BundleResource Include="Resources\BalooPaaji2-SemiBold.ttf" />
     <BundleResource Include="Resources\BalooPaaji2-Medium.ttf" />
     <BundleResource Include="Resources\BalooPaaji2-Regular.ttf" />
+    <BundleResource Include="Resources\materialdesignicons-webfont.ttf" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
