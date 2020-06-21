@@ -63,9 +63,9 @@ app.use('/api/users', require('./routes/api/users'));
 app.use('/api/games', require('./routes/api/games'));
 
 //Certificate
-const privateKey = fs.readFileSync('/etc/letsencrypt/live/strathdeek.com/privkey.pem', 'utf8');
-const certificate = fs.readFileSync('/etc/letsencrypt/live/strathdeek.com/cert.pem', 'utf8');
-const ca = fs.readFileSync('/etc/letsencrypt/live/strathdeek.com/chain.pem', 'utf8');
+const privateKey = fs.readFileSync('privkey.pem', 'utf8');
+const certificate = fs.readFileSync('cert.pem', 'utf8');
+const ca = fs.readFileSync('chain.pem', 'utf8');
 
 const credentials = {
 	key: privateKey,
