@@ -11,14 +11,23 @@ namespace Beanies.Services.Datastore
 {
     class GameDataStore : IDataStore<Game>
     {
-        private List<Game> Games = new List<Game>();
+        
+        private List<Game> Games;
 
         IGameBackendService GameBackendService => DependencyService.Resolve<IGameBackendService>();
+
+        public GameDataStore()
+        {
+            Games = new List<Game>();
+        }
+
         public async Task<bool> AddAsync(Game item)
         {
             var newGame = await GameBackendService.CreateGame(item.Name, item.Players);
             if (newGame != null)
             {
+                if (Games == null)
+                    Games = new List<Game>();
                 Games.Add(newGame);
                 return true;
             }
