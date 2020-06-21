@@ -14,12 +14,11 @@ router.post("/", async (req, res, next) => {
       .status(401)
       .json({ success: false, msg: "must provide name and players" });
   }
-
   const scores = new Map();
-
+  let playerIdArray = JSON.parse(players);
   var invalidUsers = [];
-  for (let index = 0; index < players.length; index++) {
-    const element = players[index];
+  for (let index = 0; index < playerIdArray.length; index++) {
+    const element = playerIdArray[index];
     await User.findOne({ _id: element })
       .then((user) => {
         if (!user) {
@@ -39,7 +38,7 @@ router.post("/", async (req, res, next) => {
   } else {
     const newGame = new Game({
       name: name,
-      players: players,
+      players: playerIdArray,
       scores: scores,
     });
     newGame
