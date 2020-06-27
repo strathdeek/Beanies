@@ -13,7 +13,7 @@ namespace Beanies.Services.LocalDatabase
     {
         static readonly Lazy<SQLiteAsyncConnection> lazyInitializer = new Lazy<SQLiteAsyncConnection>(() =>
         {
-            return new SQLiteAsyncConnection(Constants.GameDatabasePath, Constants.Flags);
+            return new SQLiteAsyncConnection(Constants.DatabasePath, Constants.Flags);
         });
 
         static SQLiteAsyncConnection Database => lazyInitializer.Value;
