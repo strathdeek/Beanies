@@ -5,10 +5,7 @@ namespace Beanies.Resources
 {
     public static class Constants
     {
-        private static string BasePath => Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
-
-        public const string UserDatabaseFilename = "UserDatabase.db3";
-        public const string GameDatabaseFilename = "GameDatabase.db3";
+        public const string DatabaseFilename = "UserDatabase.db3";
 
         public const SQLite.SQLiteOpenFlags Flags =
             // open the database in read/write mode
@@ -18,19 +15,12 @@ namespace Beanies.Resources
             // enable multi-threaded database access
             SQLite.SQLiteOpenFlags.SharedCache;
 
-        public static string UserDatabasePath
+        public static string DatabasePath
         {
             get
             {
-                return Path.Combine(BasePath, UserDatabaseFilename);
-            }
-        }
-
-        public static string GameDatabasePath
-        {
-            get
-            {
-                return Path.Combine(BasePath, GameDatabaseFilename);
+                var basePath = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
+                return Path.Combine(basePath, DatabaseFilename);
             }
         }
     }
