@@ -29,7 +29,6 @@ router.post("/login", (req, res, next) => {
               success: true,
               user: user,
               token: jwt.token,
-              expiresIn: jwt.expires,
             });
             // success
           } else {
@@ -81,7 +80,6 @@ router.post("/register", (req, res, next) => {
                 success: true,
                 user: user,
                 token: jwt.token,
-                expiresIn: jwt.expires,
               });
             })
             .catch((err) => next(err));
@@ -156,8 +154,7 @@ router.post("/register/:id", (req, res, next) => {
               res.status(200).json({
                 success: true,
                 user: user,
-                token: jwt.token,
-                expiresIn: jwt.expires,
+                token: jwt.token
               });
             })
             .catch((err) => next(err));
