@@ -25,6 +25,7 @@ namespace Beanies
             DependencyService.Register<IDataStore<User>, PlayerDataStore>();
             DependencyService.Register<IDataStore<Game>, GameDataStore>();
             DependencyService.RegisterSingleton(new UserDatabase());
+            DependencyService.RegisterSingleton(new GameDatabase());
 
             var sessionService = DependencyService.Resolve<ISessionService>();
 

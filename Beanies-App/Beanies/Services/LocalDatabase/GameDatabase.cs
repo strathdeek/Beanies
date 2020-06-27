@@ -63,7 +63,7 @@ namespace Beanies.Services.LocalDatabase
             }
         }
 
-        public Task<int> DeleteGameAsync(User item)
+        public Task<int> DeleteGameAsync(Game item)
         {
             return Database.DeleteAsync(item);
         }
