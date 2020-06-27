@@ -5,6 +5,7 @@ using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
@@ -85,8 +86,7 @@ namespace Beanies.Services.Backend
             {
                 var content = await res.Content.ReadAsStringAsync();
                 var loginReponse = JsonConvert.DeserializeObject<LoginReponse>(content);
-                sessionService.Self = loginReponse.user;
-                sessionService.Token = loginReponse.token;
+                SaveSessionData(loginReponse);
                 return true;
             }
 
@@ -111,8 +111,7 @@ namespace Beanies.Services.Backend
             {
                 var content = await res.Content.ReadAsStringAsync();
                 var loginReponse = JsonConvert.DeserializeObject<LoginReponse>(content);
-                sessionService.Self = loginReponse.user;
-                sessionService.Token = loginReponse.token;
+                SaveSessionData(loginReponse);
                 return true;
             }
         }
@@ -136,8 +135,7 @@ namespace Beanies.Services.Backend
             {
                 var content = await res.Content.ReadAsStringAsync();
                 var loginReponse = JsonConvert.DeserializeObject<LoginReponse>(content);
-                sessionService.Self = loginReponse.user;
-                sessionService.Token = loginReponse.token;
+                SaveSessionData(loginReponse);
                 return true;
             }
         }
@@ -204,6 +202,17 @@ namespace Beanies.Services.Backend
 
             var res = await DeleteAsync(userUrl, token: sessionService.Token);
             return res.IsSuccessStatusCode;
+        }
+
+        private void SaveSessionData(LoginReponse loginReponse)
+        {
+            sessionService.Self = loginReponse.user;
+            sessionService.Token = loginReponse.token;
+            TimeSpan tokenValidity = TimeSpan.FromDays(0);
+            string tokenTimespanParsed = Regex.Replace(loginReponse.expiresIn, "[^0-9]", "");
+            TimeSpan.TryParse(tokenTimespanParsed, out tokenValidity);
+            sessionService.TokenExpiration = DateTime.Now + tokenValidity;
+            sessionService.SaveSessionData();
         }
     }
 }

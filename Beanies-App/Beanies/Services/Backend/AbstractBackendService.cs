@@ -12,9 +12,14 @@ namespace Beanies.Services.Backend.Interfaces
 {
     abstract class AbstractBackendService
     {
+        private string genericBackendAlertTitle = "Error";
+        private string genericBackendAlertMessage = "An unexpected error has occurred while connecting to the Beanies server";
+        private string genericBackendAlertPrompt = "OK";
         protected ISessionService sessionService => DependencyService.Get<ISessionService>();
         protected IConfigurationService configurationService => DependencyService.Get<IConfigurationService>();
         protected string baseUrl => configurationService.BackendBaseUrl;
+
+
         internal async Task<HttpResponseMessage> PostAsync(string url, object requestBody, string token = "")
         {
             string body = JsonConvert.SerializeObject(requestBody);
@@ -25,7 +30,16 @@ namespace Beanies.Services.Backend.Interfaces
                 {
                     client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
                 }
-                return await client.PostAsync(url,content);
+                try
+                {
+                    var result = await client.PostAsync(url, content);
+                    return result;
+                }
+                catch (Exception ex)
+                {
+                    await App.Current.MainPage.DisplayAlert(genericBackendAlertTitle, genericBackendAlertMessage, genericBackendAlertPrompt);
+                    return new HttpResponseMessage() { StatusCode = HttpStatusCode.BadGateway };
+                }
             }
         }
 
@@ -39,7 +53,16 @@ namespace Beanies.Services.Backend.Interfaces
                 {
                     client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
                 }
-                return await client.PutAsync(url, content);
+                try
+                {
+                    var result = await client.PutAsync(url, content);
+                    return result;
+                }
+                catch (Exception ex)
+                {
+                    await App.Current.MainPage.DisplayAlert(genericBackendAlertTitle, genericBackendAlertMessage, genericBackendAlertPrompt);
+                    return new HttpResponseMessage() { StatusCode = HttpStatusCode.BadGateway };
+                }
             }
         }
 
@@ -48,7 +71,16 @@ namespace Beanies.Services.Backend.Interfaces
             using (HttpClient client = new HttpClient())
             {
                 client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
-                return await client.GetAsync(url);
+                try
+                {
+                    var result = await client.GetAsync(url);
+                    return result;
+                }
+                catch (Exception ex)
+                {
+                    await App.Current.MainPage.DisplayAlert(genericBackendAlertTitle, genericBackendAlertMessage, genericBackendAlertPrompt);
+                    return new HttpResponseMessage() { StatusCode = HttpStatusCode.BadGateway };
+                }
             }
         }
 
@@ -57,7 +89,16 @@ namespace Beanies.Services.Backend.Interfaces
             using (HttpClient client = new HttpClient())
             {
                 client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
-                return await client.DeleteAsync(url);
+                try
+                {
+                    var result = await client.DeleteAsync(url);
+                    return result;
+                }
+                catch (Exception ex)
+                {
+                    await App.Current.MainPage.DisplayAlert(genericBackendAlertTitle, genericBackendAlertMessage, genericBackendAlertPrompt);
+                    return new HttpResponseMessage() { StatusCode = HttpStatusCode.BadGateway };
+                }
             }
         }
     }
