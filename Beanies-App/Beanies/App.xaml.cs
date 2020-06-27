@@ -7,6 +7,7 @@ using Beanies.Models;
 using Beanies.Services.Datastore;
 using System;
 using System.Threading.Tasks;
+using Beanies.Services.LocalDatabase;
 
 namespace Beanies
 {
@@ -23,6 +24,7 @@ namespace Beanies
             DependencyService.Register<IGameBackendService, GameBackendService>();
             DependencyService.Register<IDataStore<User>, PlayerDataStore>();
             DependencyService.Register<IDataStore<Game>, GameDataStore>();
+            DependencyService.RegisterSingleton(new UserDatabase());
 
             var sessionService = DependencyService.Resolve<ISessionService>();
 

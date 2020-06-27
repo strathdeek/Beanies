@@ -1,5 +1,6 @@
 ﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
+using SQLite;
 using System;
 using System.Collections.Generic;
 
@@ -12,8 +13,12 @@ namespace Beanies.Models
 
         }
 
+        [JsonIgnore]
+        [PrimaryKey, AutoIncrement]
+        public int Id { get; set; }
+
         [JsonProperty(PropertyName = "_id")]
-        public string Id;
+        public string RemoteId;
 
         [JsonProperty(PropertyName = "name")]
         public string Name { get; set; }

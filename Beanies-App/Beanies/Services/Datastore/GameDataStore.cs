@@ -37,7 +37,7 @@ namespace Beanies.Services.Datastore
         public async Task<bool> DeleteAsync(string id)
         {
             var deletedSuccesfully = await GameBackendService.DeleteGame(id);
-            var gameToRemove = Games.First(x => x.Id == id);
+            var gameToRemove = Games.First(x => x.RemoteId == id);
             if (deletedSuccesfully && gameToRemove!=null)
             {
                 return Games.Remove(gameToRemove) && deletedSuccesfully;
@@ -60,14 +60,14 @@ namespace Beanies.Services.Datastore
             {
                 Games = await GameBackendService.GetGamesSelf();
             }
-            return Games.FirstOrDefault(x => x.Id == id);
+            return Games.FirstOrDefault(x => x.RemoteId == id);
         }
 
         public async Task<bool> UpdateAsync(Game item)
         {
             var updatedGame = await GameBackendService.UpdateGame(item);
             if (updatedGame == null) return false;
-            var gameToUpdate = Games.First(x => x.Id == item.Id);
+            var gameToUpdate = Games.First(x => x.RemoteId == item.RemoteId);
             var index = Games.IndexOf(gameToUpdate);
             Games[index] = updatedGame;
             return true;

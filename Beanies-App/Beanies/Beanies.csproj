@@ -14,6 +14,7 @@
     <PackageReference Include="Resizetizer.NT" Version="0.1.0" />
     <PackageReference Include="Sharpnado.Presentation.Forms" Version="1.6.0" />
     <PackageReference Include="Xamarin.Forms.PancakeView" Version="1.4.2" />
+    <PackageReference Include="sqlite-net-pcl" Version="1.7.335" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
@@ -22,6 +23,8 @@
     <Folder Include="Styles\" />
     <Folder Include="Views\ContentViews\" />
     <Folder Include="ViewItems\" />
+    <Folder Include="Services\LocalDatabase\" />
+    <Folder Include="Extensions\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Images\Icons\account-plus.svg" />

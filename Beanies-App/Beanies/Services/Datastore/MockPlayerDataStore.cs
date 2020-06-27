@@ -14,9 +14,9 @@ namespace Beanies.Services
         {
             players = new List<User>()
             {
-                new User { Id = Guid.NewGuid().ToString(), Name = "Kevin", Guest = false},
-                new User { Id = Guid.NewGuid().ToString(), Name = "Alex", Guest = true},
-                new User { Id = Guid.NewGuid().ToString(), Name = "Elif", Guest = true }
+                new User { RemoteId = Guid.NewGuid().ToString(), Name = "Kevin", Guest = false},
+                new User { RemoteId = Guid.NewGuid().ToString(), Name = "Alex", Guest = true},
+                new User { RemoteId = Guid.NewGuid().ToString(), Name = "Elif", Guest = true }
             };
         }
 
@@ -29,7 +29,7 @@ namespace Beanies.Services
 
         public async Task<bool> UpdateAsync(User item)
         {
-            var oldItem = players.Where((User arg) => arg.Id == item.Id).FirstOrDefault();
+            var oldItem = players.Where((User arg) => arg.RemoteId == item.RemoteId).FirstOrDefault();
             players.Remove(oldItem);
             players.Add(item);
 
@@ -38,7 +38,7 @@ namespace Beanies.Services
 
         public async Task<bool> DeleteAsync(string id)
         {
-            var oldItem = players.Where((User arg) => arg.Id == id).FirstOrDefault();
+            var oldItem = players.Where((User arg) => arg.RemoteId == id).FirstOrDefault();
             players.Remove(oldItem);
 
             return await Task.FromResult(true);
@@ -46,7 +46,7 @@ namespace Beanies.Services
 
         public async Task<User> GetAsync(string id)
         {
-            return await Task.FromResult(players.FirstOrDefault(s => s.Id == id));
+            return await Task.FromResult(players.FirstOrDefault(s => s.RemoteId == id));
         }
 
         public async Task<IEnumerable<User>> GetAllAsync(bool forceRefresh = false)

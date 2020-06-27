@@ -14,7 +14,7 @@ namespace Beanies.ViewItems
         public PlayerViewItem(User user)
         {
             Name = user.Name;
-            Id = user.Id;
+            Id = user.RemoteId;
         }
 
         public Command<string> SelectedCommand { get; set; }
