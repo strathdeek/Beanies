@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Beanies.Extensions;
@@ -33,6 +34,38 @@ namespace Beanies.Services.LocalDatabase
                     initialized = true;
                 }
             }
+        }
+
+        public Task<List<Game>> GetGamesAsync()
+        {
+            return Database.Table<Game>().ToListAsync();
+        }
+
+        public Task<Game> GetGameAsync(int id)
+        {
+            return Database.Table<Game>().Where(i => i.Id == id).FirstOrDefaultAsync();
+        }
+
+        public Task<Game> GetGameByRemoteId(string remoteId)
+        {
+            return Database.Table<Game>().Where(u => u.RemoteId == remoteId).FirstOrDefaultAsync();
+        }
+
+        public Task<int> SaveGameAsync(Game item)
+        {
+            if (item.Id != 0)
+            {
+                return Database.UpdateAsync(item);
+            }
+            else
+            {
+                return Database.InsertAsync(item);
+            }
+        }
+
+        public Task<int> DeleteGameAsync(User item)
+        {
+            return Database.DeleteAsync(item);
         }
     }
 }
