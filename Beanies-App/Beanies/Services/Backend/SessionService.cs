@@ -12,6 +12,8 @@ namespace Beanies.Services.Backend
     {
         private string tokenKey = nameof(Token);
         private string tokenExpirationKey = nameof(TokenExpiration);
+        private bool hasToken => !string.IsNullOrEmpty(Token);
+        private bool tokenValid => (TokenExpiration != null) && TokenExpiration > DateTime.Now;
 
         public string Token { get; set; }
         public DateTime TokenExpiration { get; set; }
@@ -19,8 +21,10 @@ namespace Beanies.Services.Backend
 
         public bool HasActiveSession()
         {
-            bool hasToken = !string.IsNullOrEmpty(Token);
-            bool tokenValid = (TokenExpiration!=null) && TokenExpiration > DateTime.Now;
+            if (!hasToken || TokenExpiration==null)
+            {
+                FetchSessionData();
+            }
 
             if (hasToken && tokenValid)
             {
@@ -41,14 +45,34 @@ namespace Beanies.Services.Backend
 
         private void FetchSessionData()
         {
-            Token = (string)Application.Current.Properties[tokenKey];
-            TokenExpiration = (DateTime)Application.Current.Properties[tokenExpirationKey];
+            string token = string.Empty;
+            string tokenExpiration = string.Empty;
+
+            if (App.Current.Properties.ContainsKey(tokenKey))
+                token = App.Current.Properties[tokenKey] as string;
+            if (App.Current.Properties.ContainsKey(tokenExpirationKey))
+                tokenExpiration = App.Current.Properties[tokenExpirationKey] as string;
+
+            if (!string.IsNullOrEmpty(token) && !string.IsNullOrEmpty(tokenExpiration))
+            {
+                Token = token;
+                TokenExpiration = DateTime.Parse(tokenExpiration);
+            }
         }
 
-        private void SaveSessionData()
+        public void SaveSessionData()
         {
-            Application.Current.Properties[tokenKey] = Token;
-            Application.Current.Properties[tokenExpirationKey] = TokenExpiration;
+            if (!App.Current.Properties.ContainsKey(tokenKey))
+                App.Current.Properties.Add(tokenKey, Token);
+            else
+                App.Current.Properties[tokenKey] = Token;
+
+            if (!App.Current.Properties.ContainsKey(tokenKey))
+                App.Current.Properties.Add(tokenExpirationKey, TokenExpiration.ToShortDateString());
+            else
+                App.Current.Properties[tokenExpirationKey] = TokenExpiration.ToShortDateString();
+
+            App.Current.SavePropertiesAsync();
         }
     }
 }

@@ -12,5 +12,6 @@ namespace Beanies.Services.Backend.Interfaces
         User Self { get; set; }
 
         bool HasActiveSession();
+        void SaveSessionData();
     }
 }
