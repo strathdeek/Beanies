@@ -1,19 +1,28 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Linq;
 using System.Threading.Tasks;
 using Beanies.Models;
 using Beanies.Services;
 using Beanies.Styles;
+using Beanies.ViewItems;
 using Xamarin.Forms;
 
 namespace Beanies.ViewModels
 {
     public class GamesListViewModel : BaseViewModel
     {
+        public IDataStore<Game> GameDataStore => DependencyService.Get<IDataStore<Game>>();
 
-        private List<Game> games;
-        public List<Game> Games
+        public GamesListViewModel()
+        {
+            Games = new List<GameViewItem>();
+            LoadingGames = false;
+        }
+
+        private List<GameViewItem> games;
+        public List<GameViewItem> Games
         {
             get
             {
@@ -26,22 +35,32 @@ namespace Beanies.ViewModels
             }
         }
 
-        public IDataStore<Game> GameDataStore => DependencyService.Get<IDataStore<Game>>();
-
-        public GamesListViewModel()
+        private bool loadingGames;
+        public bool LoadingGames
         {
-            Games = new List<Game>();
+            get
+            {
+                return loadingGames;
+            }
+            set
+            {
+                loadingGames = value;
+                OnPropertyChanged(nameof(LoadingGames));
+            }
         }
+
+        public Command FetchGamesCommand { get { return new Command((s) => FetchGames()); } }
 
         public async Task FetchGames()
         {
-            Games.Clear();
-            var games = await GameDataStore.GetAllAsync();
+            LoadingGames = true;
+            var games = (await GameDataStore.GetAllAsync()).Select(x => new GameViewItem(x)).ToList();
             foreach (var game in games)
             {
-                Games.Add(game);
+                await game.InitPlayerNamesString();
             }
-            OnPropertyChanged(nameof(Games));
+            Games = games;
+            LoadingGames = false;
         }
 
         public string PlayIcon => IconFont.Cards;
