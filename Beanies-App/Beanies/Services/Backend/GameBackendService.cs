@@ -68,7 +68,7 @@ namespace Beanies.Services.Backend
 
         public async Task<List<Game>> GetGamesSelf()
         {
-            var res = await GetAsync(gamesUrl);
+            var res = await GetAsync($"{gamesUrl}/player/{sessionService.Self}");
             if (!res.IsSuccessStatusCode)
             {
                 return null;

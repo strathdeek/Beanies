@@ -28,7 +28,7 @@ namespace Beanies.Models
         [PrimaryKey, AutoIncrement]
         public int Id { get; set; }
 
-        public string RemoteId;
+        public string RemoteId { get; set; }
 
         public string Name { get; set; }
 

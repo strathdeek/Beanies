@@ -48,7 +48,8 @@
                             <FontImageSource
                                 FontFamily="{DynamicResource MaterialFontFamily}"
                                 Glyph="{Binding CloseIcon}"
-                                Size="44" />
+                                Size="44"
+                                Color="{StaticResource PrimaryBlue}" />
                         </Image.Source>
                     </Image>
                 </renderedviews:MaterialFrame>

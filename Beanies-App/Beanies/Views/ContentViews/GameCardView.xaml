@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentView
+    x:Class="Beanies.Views.ContentViews.GameCardView"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:renderedviews="clr-namespace:Sharpnado.MaterialFrame;assembly=Sharpnado.MaterialFrame">
+    <ContentView.Content>
+        <renderedviews:MaterialFrame Padding="10,0">
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer Command="{Binding SelectedCommand}" CommandParameter="{Binding RemoteId}" />
+            </Frame.GestureRecognizers>
+            <Grid ColumnDefinitions="*,*">
+                <Grid Grid.Column="0" RowDefinitions="*,*">
+                    <Label
+                        Grid.Row="0"
+                        Margin="10,0,10,0"
+                        FontFamily="{StaticResource SemiBold}"
+                        FontSize="Large"
+                        HorizontalOptions="Start"
+                        Text="{Binding Name}"
+                        VerticalOptions="Center" />
+                    <Label
+                        Grid.Row="1"
+                        Margin="10,0"
+                        FontSize="Large"
+                        HorizontalOptions="Start"
+                        Text="{Binding CreatedDate, StringFormat='{0:MMMM dd, yyyy}'}"
+                        VerticalOptions="Center" />
+                </Grid>
+                <Grid Grid.Column="1" RowDefinitions="*,*,*,*">
+                    <Label
+                        Grid.Row="0"
+                        Margin="10,0,10,0"
+                        FontSize="Large"
+                        HorizontalOptions="Center"
+                        Text="{Binding Player1Name}"
+                        VerticalOptions="Center" />
+                    <Label
+                        Grid.Row="1"
+                        Margin="10,0,10,0"
+                        FontSize="Large"
+                        HorizontalOptions="Center"
+                        Text="{Binding Player2Name}"
+                        VerticalOptions="Center" />
+                    <Label
+                        Grid.Row="2"
+                        Margin="10,0,10,0"
+                        FontSize="Large"
+                        HorizontalOptions="Center"
+                        Text="{Binding Player3Name}"
+                        VerticalOptions="CenterAndExpand" />
+                    <Label
+                        Grid.Row="3"
+                        Margin="10,0"
+                        FontSize="Medium"
+                        HorizontalOptions="Center"
+                        Text="{Binding ExtraPlayersText}"
+                        VerticalOptions="Center" />
+                </Grid>
+
+            </Grid>
+        </renderedviews:MaterialFrame>
+    </ContentView.Content>
+</ContentView>

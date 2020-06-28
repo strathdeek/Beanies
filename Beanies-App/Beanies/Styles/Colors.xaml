@@ -7,4 +7,5 @@
     <Color x:Key="Primary">#D5A220</Color>
     <Color x:Key="PrimaryBlue">#264653</Color>
     <Color x:Key="BackgroundLight">#F9F1DC</Color>
+    <Color x:Key="BackgroundLighter">#FCF8EE</Color>
 </ResourceDictionary>
