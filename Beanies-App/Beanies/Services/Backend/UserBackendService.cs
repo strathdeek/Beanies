@@ -1,6 +1,7 @@
 ﻿using Beanies.Models;
 using Beanies.Models.BackendResponses;
 using Beanies.Services.Backend.Interfaces;
+using Beanies.Services.LocalDatabase;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -14,6 +15,7 @@ namespace Beanies.Services.Backend
     class UserBackendService : AbstractBackendService, IUserBackendService
     {
         public IDataStore<User> PlayerDataStore => DependencyService.Get<IDataStore<User>>();
+        private UserDatabase userDatabase => DependencyService.Resolve<UserDatabase>();
 
         private string userUrl => $"{baseUrl}/users";
         public async Task<User> RegisterGuestAsync(string name)
@@ -192,7 +194,7 @@ namespace Beanies.Services.Backend
             sessionService.Token = loginReponse.token;
             sessionService.SaveSessionData();
 
-            PlayerDataStore.AddAsync(loginReponse.user);
+            userDatabase.SaveUserAsync(loginReponse.user);
         }
     }
 }

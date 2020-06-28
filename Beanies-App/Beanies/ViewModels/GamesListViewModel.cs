@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Threading.Tasks;
 using Beanies.Models;
@@ -10,22 +11,37 @@ namespace Beanies.ViewModels
 {
     public class GamesListViewModel : BaseViewModel
     {
-        public ObservableCollection<Game> Games { get; set; }
+
+        private List<Game> games;
+        public List<Game> Games
+        {
+            get
+            {
+                return games;
+            }
+            set
+            {
+                games = value;
+                OnPropertyChanged(nameof(Games));
+            }
+        }
+
         public IDataStore<Game> GameDataStore => DependencyService.Get<IDataStore<Game>>();
 
         public GamesListViewModel()
         {
-            FetchGames();
+            Games = new List<Game>();
         }
 
         public async Task FetchGames()
         {
-            Games = new ObservableCollection<Game>();
+            Games.Clear();
             var games = await GameDataStore.GetAllAsync();
             foreach (var game in games)
             {
                 Games.Add(game);
             }
+            OnPropertyChanged(nameof(Games));
         }
 
         public string PlayIcon => IconFont.Cards;

@@ -14,6 +14,12 @@ namespace Beanies.Views
             InitializeComponent();
         }
 
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            viewModel.FetchGames();
+        }
+
         async void StartGame_Tapped(System.Object sender, System.EventArgs e)
         {
             if (sender is ContentView view)
