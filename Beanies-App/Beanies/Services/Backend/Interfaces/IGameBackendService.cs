@@ -8,7 +8,7 @@ namespace Beanies.Services.Backend.Interfaces
 {
     interface IGameBackendService
     {
-        Task<Game> CreateGame(string name, List<string> players);
+        Task<Game> CreateGame(string name, string[] players);
 
         Task<Game> GetGame(string id);
 

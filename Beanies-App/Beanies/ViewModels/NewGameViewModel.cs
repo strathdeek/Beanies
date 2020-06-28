@@ -85,7 +85,7 @@ namespace Beanies.ViewModels
                 var game = new Game()
                 {
                     Name = Name,
-                    Players = selectedPlayers.Select(x => x.RemoteId).ToList()
+                    Players = selectedPlayers.Select(x => x.RemoteId).ToArray()
                 };
                 return await GameDataStore.AddAsync(game);
             }

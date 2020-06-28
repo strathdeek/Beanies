@@ -10,12 +10,16 @@ namespace Beanies.Models
     {
         public Game()
         {
-
         }
 
-        [JsonIgnore]
-        [PrimaryKey, AutoIncrement]
-        public int Id { get; set; }
+        public Game(GameDb game)
+        {
+            RemoteId = game.RemoteId;
+            Name = game.Name;
+            CreatedDate = game.CreatedDate;
+            Players = JsonConvert.DeserializeObject<string[]>(game.Players);
+            Scores = JsonConvert.DeserializeObject<Dictionary<string, int[]>>(game.Scores);
+        }
 
         [JsonProperty(PropertyName = "_id")]
         public string RemoteId;
@@ -24,7 +28,7 @@ namespace Beanies.Models
         public string Name { get; set; }
 
         [JsonProperty(PropertyName = "players")]
-        public List<string> Players { get; set; }
+        public string[] Players { get; set; }
 
         [JsonProperty(PropertyName = "scores")]
         public Dictionary<string, int[]> Scores { get; set; }

@@ -25,7 +25,8 @@ namespace Beanies.Services.Datastore
             var newGame = await GameBackendService.CreateGame(item.Name, item.Players);
             if (newGame != null)
             {
-                await gameDatabase.SaveGameAsync(newGame);
+                var newGameDb = new GameDb(newGame);
+                await gameDatabase.SaveGameAsync(newGameDb);
                 return true;
             }
             return false;
@@ -50,11 +51,12 @@ namespace Beanies.Services.Datastore
                 var remoteGames = await GameBackendService.GetGamesSelf();
                 foreach (var game in remoteGames)
                 {
-                    await gameDatabase.SaveGameAsync(game);
+                    var newGameDb = new GameDb(game);
+                    await gameDatabase.SaveGameAsync(newGameDb);
                 }
                 return remoteGames;
             }
-            return localGames;
+            return localGames.Select(x => new Game(x));
         }
 
         public async Task<Game> GetAsync(string id)
@@ -65,18 +67,20 @@ namespace Beanies.Services.Datastore
                 var remoteGames = await GameBackendService.GetGamesSelf();
                 foreach (var game in remoteGames)
                 {
-                    await gameDatabase.SaveGameAsync(game);
+                    await gameDatabase.SaveGameAsync(new GameDb(game));
                 }
-                localGames = remoteGames;
+                return remoteGames.FirstOrDefault(x => x.RemoteId == id);
             }
-            return localGames.FirstOrDefault(x => x.RemoteId == id);
+            return new Game(localGames.FirstOrDefault(x => x.RemoteId == id));
         }
 
         public async Task<bool> UpdateAsync(Game item)
         {
             var updatedGame = await GameBackendService.UpdateGame(item);
             if (updatedGame == null) return false;
-            await gameDatabase.SaveGameAsync(item);
+            var gameToUpdate = await gameDatabase.GetGameByRemoteId(updatedGame.RemoteId);
+            gameToUpdate.UpdateWith(updatedGame);
+            await gameDatabase.SaveGameAsync(gameToUpdate);
             return true;
         }
     }

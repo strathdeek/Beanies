@@ -28,30 +28,30 @@ namespace Beanies.Services.LocalDatabase
         {
             if (!initialized)
             {
-                if (!Database.TableMappings.Any(m => m.MappedType.Name == typeof(Game).Name))
+                if (!Database.TableMappings.Any(m => m.MappedType.Name == typeof(GameDb).Name))
                 {
-                    await Database.CreateTablesAsync(CreateFlags.None, typeof(Game)).ConfigureAwait(false);
+                    await Database.CreateTablesAsync(CreateFlags.None, typeof(GameDb)).ConfigureAwait(false);
                     initialized = true;
                 }
             }
         }
 
-        public Task<List<Game>> GetGamesAsync()
+        public Task<List<GameDb>> GetGamesAsync()
         {
-            return Database.Table<Game>().ToListAsync();
+            return Database.Table<GameDb>().ToListAsync();
         }
 
-        public Task<Game> GetGameAsync(int id)
+        public Task<GameDb> GetGameAsync(int id)
         {
-            return Database.Table<Game>().Where(i => i.Id == id).FirstOrDefaultAsync();
+            return Database.Table<GameDb>().Where(i => i.Id == id).FirstOrDefaultAsync();
         }
 
-        public Task<Game> GetGameByRemoteId(string remoteId)
+        public Task<GameDb> GetGameByRemoteId(string remoteId)
         {
-            return Database.Table<Game>().Where(u => u.RemoteId == remoteId).FirstOrDefaultAsync();
+            return Database.Table<GameDb>().Where(u => u.RemoteId == remoteId).FirstOrDefaultAsync();
         }
 
-        public Task<int> SaveGameAsync(Game item)
+        public Task<int> SaveGameAsync(GameDb item)
         {
             if (item.Id != 0)
             {
@@ -63,7 +63,7 @@ namespace Beanies.Services.LocalDatabase
             }
         }
 
-        public Task<int> DeleteGameAsync(Game item)
+        public Task<int> DeleteGameAsync(GameDb item)
         {
             return Database.DeleteAsync(item);
         }
