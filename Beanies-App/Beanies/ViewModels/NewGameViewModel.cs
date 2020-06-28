@@ -64,14 +64,14 @@ namespace Beanies.ViewModels
 
         public async void FetchPlayers()
         {
-            var users = (await PlayerDataStore.GetAllAsync()).ToList();
-            users.Insert(0, sessionService.Self);
+            var users = await PlayerDataStore.GetAllAsync();
             Players = users.Select(x => new PlayerViewItem(x)
             {
-                Selected = sessionService.Self.Id == x.Id,
+                Selected = sessionService.Self == x.RemoteId,
                 SelectedCommand = new Command<string>(SelectPlayer)
             }).ToList();
-            SelectedPlayers = new List<User>() { sessionService.Self};
+            var selectedIds = Players.Where(p => p.Selected).Select(x => x.Id);
+            SelectedPlayers = users.Where(x => selectedIds.Any(y => y == x.RemoteId)).ToList();
         }
 
         public async Task<bool> AddGameAsync()
@@ -85,7 +85,7 @@ namespace Beanies.ViewModels
                 var game = new Game()
                 {
                     Name = Name,
-                    Players = selectedPlayers.Select(x => x.Id).ToList()
+                    Players = selectedPlayers.Select(x => x.RemoteId).ToArray()
                 };
                 return await GameDataStore.AddAsync(game);
             }
@@ -107,7 +107,7 @@ namespace Beanies.ViewModels
         {
             Players.FirstOrDefault(x => x.Id == id).ToggleSelected();
             var user = await PlayerDataStore.GetAsync(id);
-            if (!selectedPlayers.Any(x => x.Id == id))
+            if (!selectedPlayers.Any(x => x.RemoteId == id))
             {
                 selectedPlayers.Add(user);
             }

@@ -1,5 +1,6 @@
 ﻿using Beanies.Models;
 using Beanies.Services.Backend.Interfaces;
+using Beanies.Services.LocalDatabase;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,13 +13,11 @@ namespace Beanies.Services.Datastore
     class GameDataStore : IDataStore<Game>
     {
         
-        private List<Game> Games;
-
         IGameBackendService GameBackendService => DependencyService.Resolve<IGameBackendService>();
+        GameDatabase gameDatabase => DependencyService.Resolve<GameDatabase>();
 
         public GameDataStore()
         {
-            Games = new List<Game>();
         }
 
         public async Task<bool> AddAsync(Game item)
@@ -26,9 +25,8 @@ namespace Beanies.Services.Datastore
             var newGame = await GameBackendService.CreateGame(item.Name, item.Players);
             if (newGame != null)
             {
-                if (Games == null)
-                    Games = new List<Game>();
-                Games.Add(newGame);
+                var newGameDb = new GameDb(newGame);
+                await gameDatabase.SaveGameAsync(newGameDb);
                 return true;
             }
             return false;
@@ -37,39 +35,52 @@ namespace Beanies.Services.Datastore
         public async Task<bool> DeleteAsync(string id)
         {
             var deletedSuccesfully = await GameBackendService.DeleteGame(id);
-            var gameToRemove = Games.First(x => x.Id == id);
+            var gameToRemove = await gameDatabase.GetGameByRemoteId(id);
             if (deletedSuccesfully && gameToRemove!=null)
             {
-                return Games.Remove(gameToRemove) && deletedSuccesfully;
+                await gameDatabase.DeleteGameAsync(gameToRemove);
             }
             return deletedSuccesfully;
         }
 
         public async Task<IEnumerable<Game>> GetAllAsync(bool forceRefresh = false)
         {
-            if (!Games.Any())
+            var localGames = await gameDatabase.GetGamesAsync();
+            if (!localGames.Any())
             {
-                Games = await GameBackendService.GetGamesSelf();
+                var remoteGames = await GameBackendService.GetGamesSelf();
+                foreach (var game in remoteGames)
+                {
+                    var newGameDb = new GameDb(game);
+                    await gameDatabase.SaveGameAsync(newGameDb);
+                }
+                return remoteGames;
             }
-            return Games;
+            return localGames.Select(x => new Game(x));
         }
 
         public async Task<Game> GetAsync(string id)
         {
-            if (!Games.Any())
+            var localGames = await gameDatabase.GetGamesAsync();
+            if (!localGames.Any())
             {
-                Games = await GameBackendService.GetGamesSelf();
+                var remoteGames = await GameBackendService.GetGamesSelf();
+                foreach (var game in remoteGames)
+                {
+                    await gameDatabase.SaveGameAsync(new GameDb(game));
+                }
+                return remoteGames.FirstOrDefault(x => x.RemoteId == id);
             }
-            return Games.FirstOrDefault(x => x.Id == id);
+            return new Game(localGames.FirstOrDefault(x => x.RemoteId == id));
         }
 
         public async Task<bool> UpdateAsync(Game item)
         {
             var updatedGame = await GameBackendService.UpdateGame(item);
             if (updatedGame == null) return false;
-            var gameToUpdate = Games.First(x => x.Id == item.Id);
-            var index = Games.IndexOf(gameToUpdate);
-            Games[index] = updatedGame;
+            var gameToUpdate = await gameDatabase.GetGameByRemoteId(updatedGame.RemoteId);
+            gameToUpdate.UpdateWith(updatedGame);
+            await gameDatabase.SaveGameAsync(gameToUpdate);
             return true;
         }
     }

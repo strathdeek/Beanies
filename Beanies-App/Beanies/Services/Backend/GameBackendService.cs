@@ -13,7 +13,7 @@ namespace Beanies.Services.Backend
     {
 
         private string gamesUrl => $"{baseUrl}/games/";
-        public async Task<Game> CreateGame(string name, List<string> players)
+        public async Task<Game> CreateGame(string name, string[] players)
         {
             Dictionary<string, string> body = new Dictionary<string, string>()
             {

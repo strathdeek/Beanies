@@ -11,52 +11,38 @@ namespace Beanies.Services.Backend
     class SessionService : ISessionService
     {
         private string tokenKey = nameof(Token);
-        private string tokenExpirationKey = nameof(TokenExpiration);
+        private string selfKey = nameof(Self);
+
         private bool hasToken => !string.IsNullOrEmpty(Token);
-        private bool tokenValid => (TokenExpiration != null) && TokenExpiration > DateTime.Now;
+        private bool hasSelf => !string.IsNullOrEmpty(Self);
 
         public string Token { get; set; }
-        public DateTime TokenExpiration { get; set; }
-        public User Self { get; set; }
+        public string Self { get; set; }
 
         public bool HasActiveSession()
         {
-            if (!hasToken || TokenExpiration==null)
+            if (!hasToken)
             {
                 FetchSessionData();
             }
-
-            if (hasToken && tokenValid)
-            {
-                if (Self == null)
-                    UpdateCurrentUserAsync();
-                return true;
-            }
-            return false;
-        }
-
-        private async Task UpdateCurrentUserAsync()
-        {
-            var userService = DependencyService.Resolve<IUserBackendService>();
-
-            var currentUser = await userService.GetSelfAsync();
-            Self = currentUser;
+            return hasToken;
         }
 
         private void FetchSessionData()
         {
             string token = string.Empty;
-            string tokenExpiration = string.Empty;
+            string self = string.Empty;
 
             if (App.Current.Properties.ContainsKey(tokenKey))
                 token = App.Current.Properties[tokenKey] as string;
-            if (App.Current.Properties.ContainsKey(tokenExpirationKey))
-                tokenExpiration = App.Current.Properties[tokenExpirationKey] as string;
 
-            if (!string.IsNullOrEmpty(token) && !string.IsNullOrEmpty(tokenExpiration))
+            if (App.Current.Properties.ContainsKey(selfKey))
+                self = App.Current.Properties[selfKey] as string;
+
+            if (!string.IsNullOrEmpty(token) && !string.IsNullOrEmpty(self))
             {
                 Token = token;
-                TokenExpiration = DateTime.Parse(tokenExpiration);
+                Self = self;
             }
         }
 
@@ -67,10 +53,10 @@ namespace Beanies.Services.Backend
             else
                 App.Current.Properties[tokenKey] = Token;
 
-            if (!App.Current.Properties.ContainsKey(tokenKey))
-                App.Current.Properties.Add(tokenExpirationKey, TokenExpiration.ToShortDateString());
+            if (!App.Current.Properties.ContainsKey(selfKey))
+                App.Current.Properties.Add(selfKey, Self);
             else
-                App.Current.Properties[tokenExpirationKey] = TokenExpiration.ToShortDateString();
+                App.Current.Properties[selfKey] = Self;
 
             App.Current.SavePropertiesAsync();
         }

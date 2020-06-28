@@ -10,7 +10,5 @@ namespace Beanies.Models.BackendResponses
         public User user { get; set; }
         public bool success { get; set; }
         public string token { get; set; }
-        public string expiresIn { get; set; }
-
     }
 }

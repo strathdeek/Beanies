@@ -13,6 +13,8 @@ namespace Beanies.Services.Backend
 {
     class UserBackendService : AbstractBackendService, IUserBackendService
     {
+        public IDataStore<User> PlayerDataStore => DependencyService.Get<IDataStore<User>>();
+
         private string userUrl => $"{baseUrl}/users";
         public async Task<User> RegisterGuestAsync(string name)
         {
@@ -158,17 +160,7 @@ namespace Beanies.Services.Backend
             }
 
             var res = await PutAsync(userUrl, body, token: sessionService.Token);
-            if (!res.IsSuccessStatusCode)
-            {
-                return false;
-            }
-            else
-            {
-                var content = await res.Content.ReadAsStringAsync();
-                var userResponse = JsonConvert.DeserializeObject<UserResponse>(content);
-                sessionService.Self = userResponse.user;
-                return true;
-            }
+            return res.IsSuccessStatusCode;
         }
 
         public async Task<bool> UpdateGuestAsync(string id, string name = "")
@@ -183,17 +175,7 @@ namespace Beanies.Services.Backend
             }
 
             var res = await PutAsync(userUrl, body, token: sessionService.Token);
-            if (!res.IsSuccessStatusCode)
-            {
-                return false;
-            }
-            else
-            {
-                var content = await res.Content.ReadAsStringAsync();
-                var userResponse = JsonConvert.DeserializeObject<UserResponse>(content);
-                sessionService.Self = userResponse.user;
-                return true;
-            }
+            return res.IsSuccessStatusCode;
         }
 
         public async Task<bool> DeleteUserAsync(string id)
@@ -206,13 +188,11 @@ namespace Beanies.Services.Backend
 
         private void SaveSessionData(LoginReponse loginReponse)
         {
-            sessionService.Self = loginReponse.user;
+            sessionService.Self = loginReponse.user.RemoteId;
             sessionService.Token = loginReponse.token;
-            TimeSpan tokenValidity = TimeSpan.FromDays(0);
-            string tokenTimespanParsed = Regex.Replace(loginReponse.expiresIn, "[^0-9]", "");
-            TimeSpan.TryParse(tokenTimespanParsed, out tokenValidity);
-            sessionService.TokenExpiration = DateTime.Now + tokenValidity;
             sessionService.SaveSessionData();
+
+            PlayerDataStore.AddAsync(loginReponse.user);
         }
     }
 }
